@@ -1,0 +1,444 @@
+{
+  "crafts": [
+    {
+      "id": "pipe-cleaner",
+      "name": "Pipe Cleaner",
+      "slug": "pipe-cleaner",
+      "tagline": "Bend, twist, and create anything you imagine",
+      "description": "Pipe cleaner crafting, also known as chenille stem crafting, is a wonderfully tactile and forgiving art form perfect for all ages. These fuzzy, flexible wires can be twisted, coiled, and sculpted into an endless variety of shapes — from delicate flowers and whimsical animals to intricate 3D sculptures. What makes pipe cleaner crafts so special is their accessibility: no special skills required, mistakes are easily undone, and the materials are inexpensive and widely available.",
+      "benefits": ["Improves fine motor skills", "Encourages 3D thinking", "Highly forgiving — mistakes are easily fixed", "Portable and mess-free", "Great for all ages"],
+      "tools": [
+        { "name": "Pipe Cleaners / Chenille Stems", "description": "Available in standard (30cm) and jumbo sizes. Metallic, glitter, and glow-in-the-dark varieties add extra fun.", "icon": "🌀" },
+        { "name": "Wire Cutters / Scissors", "description": "Small craft scissors work well for cutting stems to size without bending.", "icon": "✂️" },
+        { "name": "Round-nose Pliers", "description": "Optional but helpful for tight coils and uniform loops.", "icon": "🔧" },
+        { "name": "Googly Eyes & Beads", "description": "For embellishments — beads can be threaded onto stems before shaping.", "icon": "👀" },
+        { "name": "Floral Wire", "description": "For reinforcing larger sculptures that need extra support.", "icon": "🌿" }
+      ],
+      "color": "#ED6A5A",
+      "emoji": "🌀",
+      "patterns": [
+        {
+          "id": "pc-butterfly",
+          "name": "Twisted Butterfly",
+          "difficulty": "Beginner",
+          "time": "15 min",
+          "description": "A gorgeous butterfly using 4 stems — perfect first project.",
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Butterfly/"
+        },
+        {
+          "id": "pc-flower",
+          "name": "Rose Bouquet",
+          "difficulty": "Beginner",
+          "time": "20 min",
+          "description": "Create everlasting roses that never wilt.",
+          "image": "https://images.unsplash.com/photo-1490750967868-88df5691cc2e?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.wikihow.com/Make-a-Pipe-Cleaner-Rose"
+        },
+        {
+          "id": "pc-spider",
+          "name": "Fuzzy Spider",
+          "difficulty": "Beginner",
+          "time": "10 min",
+          "description": "Eight-legged friend made from just 5 pipe cleaners.",
+          "image": "https://images.unsplash.com/photo-1602491674275-316d95560fb1?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Spider/"
+        },
+        {
+          "id": "pc-basket",
+          "name": "Woven Mini Basket",
+          "difficulty": "Intermediate",
+          "time": "45 min",
+          "description": "A functional woven basket using the coiling technique.",
+          "image": "https://images.unsplash.com/photo-1591486603999-952100fbf4bb?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Basket/"
+        },
+        {
+          "id": "pc-unicorn",
+          "name": "Unicorn Figurine",
+          "difficulty": "Intermediate",
+          "time": "40 min",
+          "description": "A magical 3D unicorn with rainbow mane.",
+          "image": "https://images.unsplash.com/photo-1558862107-d49ef2a04d72?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Unicorn/"
+        },
+        {
+          "id": "pc-tree",
+          "name": "Mini Bonsai Tree",
+          "difficulty": "Advanced",
+          "time": "90 min",
+          "description": "A detailed bonsai tree with twisted trunk and foliage.",
+          "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Bonsai/"
+        },
+        {
+          "id": "pc-butterfly",
+          "name": "Twisted Butterfly",
+          "difficulty": "Beginner",
+          "time": "15 min",
+          "description": "A gorgeous butterfly using 4 stems — perfect first project.",
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Butterfly/"
+        },
+        {
+          "id": "pc-flower",
+          "name": "Rose Bouquet",
+          "difficulty": "Beginner",
+          "time": "20 min",
+          "description": "Create everlasting roses that never wilt.",
+          "image": "https://images.unsplash.com/photo-1490750967868-88df5691cc2e?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.wikihow.com/Make-a-Pipe-Cleaner-Rose"
+        },
+        {
+          "id": "pc-spider",
+          "name": "Fuzzy Spider",
+          "difficulty": "Beginner",
+          "time": "10 min",
+          "description": "Eight-legged friend made from just 5 pipe cleaners.",
+          "image": "https://images.unsplash.com/photo-1602491674275-316d95560fb1?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Spider/"
+        },
+        {
+          "id": "pc-basket",
+          "name": "Woven Mini Basket",
+          "difficulty": "Intermediate",
+          "time": "45 min",
+          "description": "A functional woven basket using the coiling technique.",
+          "image": "https://images.unsplash.com/photo-1591486603999-952100fbf4bb?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Basket/"
+        },
+        {
+          "id": "pc-unicorn",
+          "name": "Unicorn Figurine",
+          "difficulty": "Intermediate",
+          "time": "40 min",
+          "description": "A magical 3D unicorn with rainbow mane.",
+          "image": "https://images.unsplash.com/photo-1558862107-d49ef2a04d72?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Unicorn/"
+        },
+        {
+          "id": "pc-tree",
+          "name": "Mini Bonsai Tree",
+          "difficulty": "Advanced",
+          "time": "90 min",
+          "description": "A detailed bonsai tree with twisted trunk and foliage.",
+          "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Bonsai/"
+        }
+      ]
+    },
+
+
+    {
+      "id": "crochet",
+      "name": "Crochet",
+      "slug": "crochet",
+      "tagline": "Loop by loop, stitch by stitch — create something magical",
+      "description": "Crochet is an ancient textile craft using a hooked needle to interlock loops of yarn, thread, or other materials. Unlike knitting which uses two needles, crochet uses a single hook — making it arguably easier to pick up and more portable. From cosy blankets and wearable fashion to adorable amigurumi toys and intricate lacework, the scope of crochet is breathtaking. It is also scientifically shown to reduce anxiety, improve focus, and boost serotonin — making it as good for the mind as it is for the hands.",
+      "benefits": ["Reduces stress and anxiety", "Portable — craft anywhere", "Endless project variety", "Creates heirloom-quality items", "Strong global community"],
+      "tools": [
+        { "name": "Crochet Hooks", "description": "Available in aluminium, bamboo, and ergonomic grips. Sizes range from 2mm (lace) to 25mm+ (jumbo yarn). Size B-D (2.25–3.5mm) for fine yarn, H-J (5–6mm) for worsted.", "icon": "🪝" },
+        { "name": "Yarn", "description": "Yarn weight matters: lace, fingering, sport, DK, worsted, bulky, super-bulky. Cotton for amigurumi, wool for warm items, acrylic for washable everyday pieces.", "icon": "🧶" },
+        { "name": "Stitch Markers", "description": "Locking stitch markers to mark the beginning of rounds or important stitches.", "icon": "📍" },
+        { "name": "Tapestry Needle", "description": "Blunt yarn needle for weaving in ends and sewing pieces together.", "icon": "🪡" },
+        { "name": "Row Counter", "description": "Manual or app-based counter to track pattern rows.", "icon": "🔢" },
+        { "name": "Scissors & Tape Measure", "description": "Sharp scissors and a flexible tape measure for gauge and finishing.", "icon": "📏" }
+      ],
+      "color": "#9BC1BC",
+      "emoji": "🧶",
+      "patterns": [
+        {
+          "id": "cr-granny",
+          "name": "Classic Granny Square",
+          "difficulty": "Beginner",
+          "time": "20 min",
+          "description": "The foundation of crochet — master this and the world opens up.",
+          "image": "/crafts/cr-granny.png",
+          "videoUrl": "https://youtu.be/e8fy3yphWjo?si=Npl6FOxTfuvpOB-B"
+        },
+        {
+          "id": "cr-stars",
+          "name": "Star",
+          "difficulty": "Beginner",
+          "time": "10 min",
+          "description": "A tiny 3D hollow crochet star, ideal for bag charms and gift decorations.",
+          "image": "/crafts/cr-stars.png",
+          "videoUrl": "https://youtu.be/jSNZ-oLen90?si=MkoNdMzuDJLN8cly"
+        },
+        {
+          "id": "cr-amigurumi",
+          "name": "Tiny Bear Amigurumi",
+          "difficulty": "Intermediate",
+          "time": "4 hours",
+          "description": "An adorable stuffed bear worked in the round.",
+          "image": "/crafts/cr-amigurumi.png",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.ravelry.com/patterns/library/tiny-bear"
+        },
+        {
+          "id": "cr-tote",
+          "name": "Market Tote Bag",
+          "difficulty": "Intermediate",
+          "time": "6 hours",
+          "description": "A sturdy mesh tote bag in cotton yarn.",
+          "image": "/crafts/cr-tote.png",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.ravelry.com/patterns/library/market-tote"
+        },
+        {
+          "id": "cr-blanket",
+          "name": "Patchwork Throw Blanket",
+          "difficulty": "Intermediate",
+          "time": "20+ hours",
+          "description": "A colourful blanket made of joined granny squares.",
+          "image": "/crafts/cr-blanket.png",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.ravelry.com/patterns/library/patchwork-throw"
+        },
+        {
+          "id": "cr-mandala",
+          "name": "Boho Wall Mandala",
+          "difficulty": "Advanced",
+          "time": "8 hours",
+          "description": "An intricate circular mandala for wall decoration.",
+          "image": "/crafts/cr-mandala.png",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.ravelry.com/patterns/library/boho-mandala"
+        },
+        {
+          "id": "cr-granny",
+          "name": "Classic Granny Square",
+          "difficulty": "Beginner",
+          "time": "30 min",
+          "description": "The foundation of crochet — master this and the world opens up.",
+          "image": "/crafts/cr-granny.png",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.ravelry.com/patterns/library/classic-granny-square"
+        },
+        {
+          "id": "cr-beanie",
+          "name": "Cosy Ribbed Beanie",
+          "difficulty": "Beginner",
+          "time": "3 hours",
+          "description": "A stretchy ribbed hat worked flat and seamed.",
+          "image": "/crafts/cr-beanie.png",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.ravelry.com/patterns/library/ribbed-beanie"
+        },
+        {
+          "id": "cr-amigurumi",
+          "name": "Tiny Bear Amigurumi",
+          "difficulty": "Intermediate",
+          "time": "4 hours",
+          "description": "An adorable stuffed bear worked in the round.",
+          "image": "/crafts/cr-amigurumi.png",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.ravelry.com/patterns/library/tiny-bear"
+        },
+        {
+          "id": "cr-tote",
+          "name": "Market Tote Bag",
+          "difficulty": "Intermediate",
+          "time": "6 hours",
+          "description": "A sturdy mesh tote bag in cotton yarn.",
+          "image": "/crafts/cr-tote.png",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.ravelry.com/patterns/library/market-tote"
+        },
+        {
+          "id": "cr-blanket",
+          "name": "Patchwork Throw Blanket",
+          "difficulty": "Intermediate",
+          "time": "20+ hours",
+          "description": "A colourful blanket made of joined granny squares.",
+          "image": "/crafts/cr-blanket.png",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.ravelry.com/patterns/library/patchwork-throw"
+        },
+        {
+          "id": "cr-mandala",
+          "name": "Boho Wall Mandala",
+          "difficulty": "Advanced",
+          "time": "8 hours",
+          "description": "An intricate circular mandala for wall decoration.",
+          "image": "/crafts/cr-mandala.png",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.ravelry.com/patterns/library/boho-mandala"
+        }
+      ]
+    },
+
+
+    {
+      "id": "fuse-beads",
+      "name": "Fuse Beads",
+      "slug": "fuse-beads",
+      "tagline": "Pixel art you can hold in your hands",
+      "description": "Fuse beads (also called Perler beads, Hama beads, or melty beads) are small plastic beads placed on pegboards and fused together with heat from an iron. The result is a rigid, colourful plastic tile that perfectly mimics pixel art. This craft beautifully bridges digital art and physical making — if you can design it on a grid, you can make it with fuse beads. From retro video game sprites and rainbow animals to intricate mosaic portraits and functional coasters, the possibilities are limited only by your imagination and patience.",
+      "benefits": ["Develops patience and focus", "Teaches colour theory and pixel art", "Creates display-ready artwork", "Easy to learn, hard to master", "Satisfying ironing transformation"],
+      "tools": [
+        { "name": "Fuse Beads", "description": "Available in 1000+ colours. Standard size (5mm) for most projects, midi size (5mm Hama), mini (2.6mm) for fine detail. Brands: Perler, Hama, Artkal.", "icon": "🟡" },
+        { "name": "Pegboards", "description": "Come in square, round, hexagon, and specialty shapes. Large boards allow bigger designs; interlocking boards for massive projects.", "icon": "📐" },
+        { "name": "Ironing Paper", "description": "Parchment or the supplied wax paper placed over beads before ironing. Never use regular paper — it will stick.", "icon": "📄" },
+        { "name": "Household Iron", "description": "Set to medium heat (no steam). Iron in slow circles — avoid pressing down too hard to prevent flat beads.", "icon": "🔥" },
+        { "name": "Tweezers", "description": "For placing individual beads precisely and fixing mistakes without disturbing neighbours.", "icon": "🔬" },
+        { "name": "Sorting Trays", "description": "Colour-sorted organiser trays speed up building significantly.", "icon": "🗂️" }
+      ],
+      "color": "#5D576B",
+      "emoji": "🟣",
+      "patterns": [
+        {
+          "id": "fb-mario",
+          "name": "Pixel Mario",
+          "difficulty": "Beginner",
+          "time": "45 min",
+          "description": "The iconic 8-bit Mario sprite — a classic starter project.",
+          "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.perler.com/mario-pattern"
+        },
+        {
+          "id": "fb-heart",
+          "name": "Rainbow Heart",
+          "difficulty": "Beginner",
+          "time": "30 min",
+          "description": "A vibrant ombre heart — perfect gift or wall art.",
+          "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.perler.com/heart-pattern"
+        },
+        {
+          "id": "fb-pokemon",
+          "name": "Pokémon Sprite Set",
+          "difficulty": "Beginner",
+          "time": "60 min each",
+          "description": "Classic Gen 1 Pokémon sprites — gotta make 'em all!",
+          "image": "https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.deviantart.com/pokemon-perler-patterns"
+        },
+        {
+          "id": "fb-coaster",
+          "name": "Geometric Coaster Set",
+          "difficulty": "Intermediate",
+          "time": "2 hours",
+          "description": "Four matching geometric coasters in a coordinated palette.",
+          "image": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Perler-Bead-Coasters/"
+        },
+        {
+          "id": "fb-cat",
+          "name": "Kawaii Cat Portrait",
+          "difficulty": "Intermediate",
+          "time": "3 hours",
+          "description": "A cute stylised cat with pastel tones.",
+          "image": "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Kawaii-Cat-Perler/"
+        },
+        {
+          "id": "fb-mandala",
+          "name": "Large Mandala Panel",
+          "difficulty": "Advanced",
+          "time": "8+ hours",
+          "description": "An intricate mandala spanning 4 connected boards.",
+          "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.deviantart.com/mandala-perler-pattern"
+        }, 
+        {
+          "id": "fb-mario",
+          "name": "Pixel Mario",
+          "difficulty": "Beginner",
+          "time": "45 min",
+          "description": "The iconic 8-bit Mario sprite — a classic starter project.",
+          "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.perler.com/mario-pattern"
+        },
+        {
+          "id": "fb-heart",
+          "name": "Rainbow Heart",
+          "difficulty": "Beginner",
+          "time": "30 min",
+          "description": "A vibrant ombre heart — perfect gift or wall art.",
+          "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.perler.com/heart-pattern"
+        },
+        {
+          "id": "fb-pokemon",
+          "name": "Pokémon Sprite Set",
+          "difficulty": "Beginner",
+          "time": "60 min each",
+          "description": "Classic Gen 1 Pokémon sprites — gotta make 'em all!",
+          "image": "https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.deviantart.com/pokemon-perler-patterns"
+        },
+        {
+          "id": "fb-coaster",
+          "name": "Geometric Coaster Set",
+          "difficulty": "Intermediate",
+          "time": "2 hours",
+          "description": "Four matching geometric coasters in a coordinated palette.",
+          "image": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Perler-Bead-Coasters/"
+        },
+        {
+          "id": "fb-cat",
+          "name": "Kawaii Cat Portrait",
+          "difficulty": "Intermediate",
+          "time": "3 hours",
+          "description": "A cute stylised cat with pastel tones.",
+          "image": "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.instructables.com/Kawaii-Cat-Perler/"
+        },
+        {
+          "id": "fb-mandala",
+          "name": "Large Mandala Panel",
+          "difficulty": "Advanced",
+          "time": "8+ hours",
+          "description": "An intricate mandala spanning 4 connected boards.",
+          "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=400&h=300&fit=crop",
+          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "tutorialUrl": "https://www.deviantart.com/mandala-perler-pattern"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "craftlover",
+      "email": "craftlover@example.com",
+      "password": "hashed_password_here",
+      "wishlist": ["pc-butterfly", "cr-amigurumi", "fb-mandala"],
+      "createdAt": "2024-01-15T10:30:00Z"
+    }
+  ],
+  "wishlist_items": [
+    {
+      "id": 1,
+      "userId": 1,
+      "patternId": "pc-butterfly",
+      "craftId": "pipe-cleaner",
+      "addedAt": "2024-02-01T09:00:00Z"
+    }
+  ]
+}
