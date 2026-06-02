@@ -58,7 +58,7 @@ const activeLevel = ref('All')
 
 const filteredPatterns = computed(() => {
   if (!craft.value) return []
-  if (activeLevel.value === 'All') return craft.value.patterns
+  if (activeLevel.value === 'All') return craft.value.skills
   return craft.value.patterns.filter(p => p.difficulty === activeLevel.value)
 })
 </script>

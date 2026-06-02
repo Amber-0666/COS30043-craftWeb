@@ -267,6 +267,36 @@
           "image": "/crafts/cr-bag2.png",
           "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
         }
+      ],
+
+      "skills": [
+        {
+          "id": "cr-single",
+          "name": "Single Crochet",
+          "difficulty": "Beginner",
+          "time": "5 min",
+          "description": "Basic stitch used in most crochet projects.",
+          "image": "/crafts/single.png",
+          "videoUrl": "https://youtu.be/..."
+        },
+        {
+          "id": "cr-double",
+          "name": "Double Crochet",
+          "difficulty": "Beginner",
+          "time": "5 min",
+          "description": "Taller stitch used for faster fabric building.",
+          "image": "/crafts/double.png",
+          "videoUrl": "https://youtu.be/..."
+        },
+        {
+          "id": "cr-slip",
+          "name": "Slip Stitch",
+          "difficulty": "Beginner",
+          "time": "3 min",
+          "description": "Used to join stitches and finish work.",
+          "image": "/crafts/slip.png",
+          "videoUrl": "https://youtu.be/..."
+        }
       ]
     },
 
