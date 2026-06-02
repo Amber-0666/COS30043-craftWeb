@@ -163,7 +163,7 @@
           "id": "cr-granny",
           "name": "Classic Granny Square",
           "difficulty": "Beginner",
-          "time": "20 min",
+          "time": "15 min",
           "description": "The foundation of crochet — master this and the world opens up.",
           "image": "/crafts/cr-granny.png",
           "videoUrl": "https://youtu.be/e8fy3yphWjo?si=Npl6FOxTfuvpOB-B"
@@ -178,104 +178,94 @@
           "videoUrl": "https://youtu.be/jSNZ-oLen90?si=MkoNdMzuDJLN8cly"
         },
         {
-          "id": "cr-amigurumi",
-          "name": "Tiny Bear Amigurumi",
+          "id": "cr-dumpling",
+          "name": "Dumpling Pouch",
           "difficulty": "Intermediate",
-          "time": "4 hours",
-          "description": "An adorable stuffed bear worked in the round.",
-          "image": "/crafts/cr-amigurumi.png",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.ravelry.com/patterns/library/tiny-bear"
+          "time": "1 hour",
+          "description": "A sturdy 3D crochet zongzi-shaped pouch, perfect as an earbud case or bag charm.",
+          "image": "/crafts/cr-dumpling.png",
+          "videoUrl": "https://youtu.be/DGKqPufSpqY?si=oyJuVuThJVAgeBDD"
         },
         {
-          "id": "cr-tote",
-          "name": "Market Tote Bag",
+          "id": "cr-bag1",
+          "name": "Crossbody Bag",
           "difficulty": "Intermediate",
-          "time": "6 hours",
-          "description": "A sturdy mesh tote bag in cotton yarn.",
-          "image": "/crafts/cr-tote.png",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.ravelry.com/patterns/library/market-tote"
+          "time": "2 hours",
+          "description": "A sturdy crochet crossbody bag with textured stitches, designed to hold its shape stylishly.",
+          "image": "/crafts/cr-bag1.png",
+          "videoUrl": "https://youtu.be/0jeR1uj8I-E?si=FbbL8HcJXEa3HAj5"
         },
         {
-          "id": "cr-blanket",
-          "name": "Patchwork Throw Blanket",
+          "id": "cr-pumpkin",
+          "name": "Pumpkin Keychain",
           "difficulty": "Intermediate",
-          "time": "20+ hours",
-          "description": "A colourful blanket made of joined granny squares.",
-          "image": "/crafts/cr-blanket.png",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.ravelry.com/patterns/library/patchwork-throw"
+          "time": "1 hour",
+          "description": "A  cheerful 3D crochet pumpkin with curling vines, symbolizing warmth and good fortune.",
+          "image": "/crafts/cr-pumpkin.png",
+          "videoUrl": "https://youtu.be/qZxjWU2f8AI?si=2mEO0ZyOyfCDh_-Q"
         },
         {
-          "id": "cr-mandala",
-          "name": "Boho Wall Mandala",
+          "id": "cr-cardigan",
+          "name": "Cardigan",
           "difficulty": "Advanced",
-          "time": "8 hours",
-          "description": "An intricate circular mandala for wall decoration.",
-          "image": "/crafts/cr-mandala.png",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.ravelry.com/patterns/library/boho-mandala"
+          "time": "10+ hours",
+          "description": "A loose and cozy crochet cardigan, perfect for staying warm in the early fall season.",
+          "image": "/crafts/cr-cardigan.png",
+          "videoUrl": "https://youtu.be/sJ7qkoliCsI?si=Du5YTEYGfajkNWRD"
         },
         {
-          "id": "cr-granny",
-          "name": "Classic Granny Square",
+          "id": "cr-sakura",
+          "name": "Sakura Earbud Case",
           "difficulty": "Beginner",
           "time": "30 min",
-          "description": "The foundation of crochet — master this and the world opens up.",
-          "image": "/crafts/cr-granny.png",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.ravelry.com/patterns/library/classic-granny-square"
+          "description": "A fresh crochet sakura-themed earbud case, perfect as a delicate bag charm.",
+          "image": "/crafts/cr-sakura.png",
+          "videoUrl": "https://youtu.be/WOIr_DEu7QM?si=oY2XIsEMW8-BBpsT"
         },
         {
-          "id": "cr-beanie",
-          "name": "Cosy Ribbed Beanie",
+          "id": "cr-heart",
+          "name": "Mini Heart",
           "difficulty": "Beginner",
-          "time": "3 hours",
-          "description": "A stretchy ribbed hat worked flat and seamed.",
-          "image": "/crafts/cr-beanie.png",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.ravelry.com/patterns/library/ribbed-beanie"
+          "time": "15 min",
+          "description": "A tiny crochet heart, perfect for adding a sweet touch to bags, gifts, or handmade accessories.",
+          "image": "/crafts/cr-heart.png",
+          "videoUrl": "https://youtu.be/9hGXxliNS6Q?si=0-Ya2YZNYLswJ2Ul"
         },
         {
-          "id": "cr-amigurumi",
-          "name": "Tiny Bear Amigurumi",
+          "id": "cr-sunflowercharm",
+          "name": "Sunflower Bag Charm",
           "difficulty": "Intermediate",
-          "time": "4 hours",
-          "description": "An adorable stuffed bear worked in the round.",
-          "image": "/crafts/cr-amigurumi.png",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.ravelry.com/patterns/library/tiny-bear"
+          "time": "1 hour",
+          "description": "A bright crochet sunflower charm that keeps your little items easy to find and adds a cheerful touch.",
+          "image": "/crafts/cr-sunflowercharm.png",
+          "videoUrl": "https://youtu.be/_9BnnTi--rQ?si=3xfhTWcFNmtvHKV9"
         },
         {
-          "id": "cr-tote",
-          "name": "Market Tote Bag",
+          "id": "cr-hairtie",
+          "name": "Apple Hair Tie",
           "difficulty": "Intermediate",
-          "time": "6 hours",
-          "description": "A sturdy mesh tote bag in cotton yarn.",
-          "image": "/crafts/cr-tote.png",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.ravelry.com/patterns/library/market-tote"
+          "time": "30 min",
+          "description": "A cute crochet apple hair tie, bringing a fresh and cozy autumn vibe.",
+          "image": "/crafts/cr-hairtie.png",
+          "videoUrl": "https://youtu.be/S168QTeVLjE?si=KosX49M-QOGYf0mt"
         },
         {
-          "id": "cr-blanket",
-          "name": "Patchwork Throw Blanket",
+          "id": "cr-coaster",
+          "name": "Lily of the Valley Coaster",
           "difficulty": "Intermediate",
-          "time": "20+ hours",
-          "description": "A colourful blanket made of joined granny squares.",
-          "image": "/crafts/cr-blanket.png",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.ravelry.com/patterns/library/patchwork-throw"
+          "time": "30 min",
+          "description": "A delicate crochet coaster with lily of the valley details, both practical and perfect for table decor.",
+          "image": "/crafts/cr-coaster.png",
+          "videoUrl": "https://youtu.be/_hTIUOQyl3M?si=wmxUt51xV5o4Ge6u"
         },
         {
-          "id": "cr-mandala",
-          "name": "Boho Wall Mandala",
+          "id": "cr-bag2",
+          "name": "Tulip Tote Bag",
           "difficulty": "Advanced",
-          "time": "8 hours",
-          "description": "An intricate circular mandala for wall decoration.",
-          "image": "/crafts/cr-mandala.png",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.ravelry.com/patterns/library/boho-mandala"
+          "time": "4 hours",
+          "description": "A charming crochet tulip tote, inspired by blooming fields and crafted with delicate floral details.",
+          "image": "/crafts/cr-bag2.png",
+          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
         }
       ]
     },
