@@ -18,124 +18,112 @@
       "emoji": "🌀",
       "patterns": [
         {
-          "id": "pc-butterfly",
-          "name": "Twisted Butterfly",
+          "id": "pc-taiyaki",
+          "name": "Taiyaki Hair Clip",
           "difficulty": "Beginner",
           "time": "15 min",
-          "description": "A gorgeous butterfly using 4 stems — perfect first project.",
-          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Butterfly/"
+          "description": "A cute pipe cleaner taiyaki hair clip, adding a playful and sweet touch to your hairstyle.",
+          "image": "/crafts/pc-taiyaki.png",
+          "videoUrl": "https://youtu.be/AQrNqEXcmRo?si=tpJs3oRkVVL2aYh8"
         },
         {
-          "id": "pc-flower",
-          "name": "Rose Bouquet",
-          "difficulty": "Beginner",
-          "time": "20 min",
-          "description": "Create everlasting roses that never wilt.",
-          "image": "https://images.unsplash.com/photo-1490750967868-88df5691cc2e?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.wikihow.com/Make-a-Pipe-Cleaner-Rose"
-        },
-        {
-          "id": "pc-spider",
-          "name": "Fuzzy Spider",
-          "difficulty": "Beginner",
-          "time": "10 min",
-          "description": "Eight-legged friend made from just 5 pipe cleaners.",
-          "image": "https://images.unsplash.com/photo-1602491674275-316d95560fb1?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Spider/"
-        },
-        {
-          "id": "pc-basket",
-          "name": "Woven Mini Basket",
-          "difficulty": "Intermediate",
-          "time": "45 min",
-          "description": "A functional woven basket using the coiling technique.",
-          "image": "https://images.unsplash.com/photo-1591486603999-952100fbf4bb?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Basket/"
-        },
-        {
-          "id": "pc-unicorn",
-          "name": "Unicorn Figurine",
-          "difficulty": "Intermediate",
-          "time": "40 min",
-          "description": "A magical 3D unicorn with rainbow mane.",
-          "image": "https://images.unsplash.com/photo-1558862107-d49ef2a04d72?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Unicorn/"
-        },
-        {
-          "id": "pc-tree",
-          "name": "Mini Bonsai Tree",
-          "difficulty": "Advanced",
-          "time": "90 min",
-          "description": "A detailed bonsai tree with twisted trunk and foliage.",
-          "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Bonsai/"
-        },
-        {
-          "id": "pc-butterfly",
-          "name": "Twisted Butterfly",
+          "id": "pc-eggplant",
+          "name": "Mini Eggplant Charm",
           "difficulty": "Beginner",
           "time": "15 min",
-          "description": "A gorgeous butterfly using 4 stems — perfect first project.",
-          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Butterfly/"
+          "description": "An adorable little crochet eggplant, perfect as a quirky and fun bag accessory.",
+          "image": "/crafts/pc-eggplant.jpg",
+          "videoUrl": "https://youtu.be/6pDeLR9tiys?si=Xo_vMPvkLL8YcTpZ"
         },
         {
-          "id": "pc-flower",
-          "name": "Rose Bouquet",
-          "difficulty": "Beginner",
-          "time": "20 min",
-          "description": "Create everlasting roses that never wilt.",
-          "image": "https://images.unsplash.com/photo-1490750967868-88df5691cc2e?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.wikihow.com/Make-a-Pipe-Cleaner-Rose"
-        },
-        {
-          "id": "pc-spider",
-          "name": "Fuzzy Spider",
+          "id": "pc-egg",
+          "name": "Fried Egg Charm Clip",
           "difficulty": "Beginner",
           "time": "10 min",
-          "description": "Eight-legged friend made from just 5 pipe cleaners.",
-          "image": "https://images.unsplash.com/photo-1602491674275-316d95560fb1?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Spider/"
+          "description": "A  cute crochet fried egg accessory that can be used as both a bag charm and hair clip.",
+          "image": "/crafts/pc-egg.png",
+          "videoUrl": "https://youtu.be/IS1eul6kMgA?si=jPWe9Tt8tB1PMIw8"
         },
         {
-          "id": "pc-basket",
-          "name": "Woven Mini Basket",
-          "difficulty": "Intermediate",
-          "time": "45 min",
-          "description": "A functional woven basket using the coiling technique.",
-          "image": "https://images.unsplash.com/photo-1591486603999-952100fbf4bb?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Basket/"
-        },
-        {
-          "id": "pc-unicorn",
-          "name": "Unicorn Figurine",
+          "id": "cr-rose",
+          "name": "Giant Roses Flower",
           "difficulty": "Intermediate",
           "time": "40 min",
-          "description": "A magical 3D unicorn with rainbow mane.",
-          "image": "https://images.unsplash.com/photo-1558862107-d49ef2a04d72?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Unicorn/"
+          "description": "A beautiful pipe cleaner rose arrangement, crafted with soft fuzzy wires for a bold and elegant floral look.",
+          "image": "/crafts/pc-rose.png",
+          "videoUrl": "https://youtu.be/_ZwR16wgoNU?si=dmHdzraTjxI3LZDN"
         },
         {
-          "id": "pc-tree",
-          "name": "Mini Bonsai Tree",
+          "id": "pc-lilies",
+          "name": "Mini Lily Pot",
+          "difficulty": "Intermediate",
+          "time": "40 min",
+          "description": "A cute mini lily flower pot, bringing a gentle and charming touch to your decor.",
+          "image": "/crafts/pc-lilies.png",
+          "videoUrl": "https://youtu.be/2e9V52dR_3w?si=kG4iuql0Giy2syhs"
+        },
+        {
+          "id": "pc-cake",
+          "name": "Birthday cake",
+          "difficulty": "Advanced",
+          "time": "1 hour",
+          "description": "A sweet handmade birthday cake design, perfect as a thoughtful and creative gift idea.",
+          "image": "/crafts/pc-cake.png",
+          "videoUrl": "https://youtu.be/-z-IpZ-zUso?si=QX8_RXf9syrTWJ_E"
+        },
+        {
+          "id": "pc-tulip",
+          "name": "Tulips Bouquet",
+          "difficulty": "Beginner",
+          "time": "15 min",
+          "description": "A delicate crochet tulip, perfect for adding a fresh and elegant floral touch.",
+          "image": "/crafts/pc-tulip.png",
+          "videoUrl": "https://youtu.be/Bru0adL9x1I?si=O1WlqmI9UDoxN5Ih"
+        },
+        {
+          "id": "pc-lavender",
+          "name": "Lavender Bloom",
+          "difficulty": "Beginner",
+          "time": "20 min",
+          "description": "A graceful lavender flower, offering a subtle, calming elegance and natural charm.",
+          "image": "/crafts/pc-lavender.png",
+          "videoUrl": "https://youtu.be/eY-xZIHeeuI?si=d8uyLaR_hTcXzqsl"
+        },
+        {
+          "id": "pc-marshflower",
+          "name": "Marshmallow Flower",
+          "difficulty": "Beginner",
+          "time": "15 min",
+          "description": "An adorable marshmallow-style flower, bringing a soft, sweet, and whimsical charm.",
+          "image": "/crafts/pc-marshflower.png",
+          "videoUrl": "https://youtu.be/e33dLcOBmbE?si=Y6KoNqNWZ9rUVSmC"
+        },
+        {
+          "id": "pc-christmas",
+          "name": "Christmas Tree",
+          "difficulty": "Intermediate",
+          "time": "45 min",
+          "description": "A festive handmade Christmas tree, perfect for decorating your space and creating a warm holiday vibe.",
+          "image": "/crafts/pc-christmas.png",
+          "videoUrl": "https://youtu.be/o_Pxw6QkE10?si=wekgxQtrki_ThP6J"
+        },
+        {
+          "id": "pc-deco",
+          "name": "Floral Hoop Decor",
           "difficulty": "Advanced",
           "time": "90 min",
-          "description": "A detailed bonsai tree with twisted trunk and foliage.",
-          "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Pipe-Cleaner-Bonsai/"
+          "description": "A  vibrant pipe cleaner floral hoop, featuring blooming flowers and greenery for a fresh and charming wall accent.",
+          "image": "/crafts/pc-deco.png",
+          "videoUrl": "https://youtu.be/VRyZxKJzEJA?si=JOB4HZDUyoxndohW"
+        },
+        {
+          "id": "pc-lamp",
+          "name": "Sunflower Lamp",
+          "difficulty": "Advanced",
+          "time": "90 min",
+          "description": "A  warm sunflower lamp to brighten your day and add a cozy, motivating glow.",
+          "image": "/crafts/pc-lamp.png",
+          "videoUrl": "https://youtu.be/JdkVkp3s-ms?si=Z10KGBcFpxPE8wSY"
         }
       ]
     },
