@@ -499,124 +499,112 @@
       "emoji": "🟣",
       "patterns": [
         {
-          "id": "fb-mario",
-          "name": "Pixel Mario",
+          "id": "fb-flower",
+          "name": "Easy Flower",
           "difficulty": "Beginner",
-          "time": "45 min",
-          "description": "The iconic 8-bit Mario sprite — a classic starter project.",
-          "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.perler.com/mario-pattern"
+          "time": "20 min",
+          "description": "A colorful fuse bead flower, perfect as a cute decoration or fun handmade accessory.",
+          "image": "/crafts/fb-flower.png",
+          "videoUrl": "https://youtu.be/jRnD2iciMhM?si=5znISZHT39NYYAR0"
         },
         {
-          "id": "fb-heart",
-          "name": "Rainbow Heart",
+          "id": "fb-fruits",
+          "name": "Fruit Set",
           "difficulty": "Beginner",
-          "time": "30 min",
-          "description": "A vibrant ombre heart — perfect gift or wall art.",
-          "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.perler.com/heart-pattern"
+          "time": "20 min each",
+          "description": "A colorful fuse bead collection featuring cute fruit designs, perfect for fun decorations and playful accessories.",
+          "image": "/crafts/fb-fruits.png",
+          "videoUrl": "https://youtu.be/cDvHn7Vk1PU?si=XpRJzpHcCPdfmBt-"
         },
         {
-          "id": "fb-pokemon",
-          "name": "Pokémon Sprite Set",
+          "id": "fb-christmas",
+          "name": "Christmas Deco",
           "difficulty": "Beginner",
-          "time": "60 min each",
-          "description": "Classic Gen 1 Pokémon sprites — gotta make 'em all!",
-          "image": "https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.deviantart.com/pokemon-perler-patterns"
+          "time": "20 min each",
+          "description": "A festive fuse bead collection with holiday designs, adding a cheerful and cozy seasonal touch.",
+          "image": "/crafts/fb-christmas.png",
+          "videoUrl": "https://youtu.be/TmrJKiiClUc?si=frrFbwpXpQ8g2i_U"
         },
         {
-          "id": "fb-coaster",
-          "name": "Geometric Coaster Set",
+          "id": "fb-wreath",
+          "name": "Holly Wreath",
           "difficulty": "Intermediate",
           "time": "2 hours",
-          "description": "Four matching geometric coasters in a coordinated palette.",
-          "image": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Perler-Bead-Coasters/"
+          "description": "A  traditional holly wreath with a warm festive charm, bringing a joyful holiday atmosphere to your space.",
+          "image": "/crafts/fb-wreath.png",
+          "videoUrl": "https://youtu.be/RxrTbgMXoWE?si=hWulrsw9nBbafTTI"
         },
         {
-          "id": "fb-cat",
-          "name": "Kawaii Cat Portrait",
+          "id": "fb-frame",
+          "name": "Panda Photo Frame",
           "difficulty": "Intermediate",
-          "time": "3 hours",
-          "description": "A cute stylised cat with pastel tones.",
-          "image": "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Kawaii-Cat-Perler/"
+          "time": "40 min",
+          "description": "A cute fuse bead photo frame with a playful panda design, perfect for displaying small photos.",
+          "image": "/crafts/fb-frame.png",
+          "videoUrl": "https://youtu.be/Wn5CakAsO8M?si=69q3Bsfjxbv3NQXr"
         },
         {
-          "id": "fb-mandala",
-          "name": "Large Mandala Panel",
+          "id": "fb-bouquet",
+          "name": "Flower Bouquet",
           "difficulty": "Advanced",
-          "time": "8+ hours",
-          "description": "An intricate mandala spanning 4 connected boards.",
-          "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.deviantart.com/mandala-perler-pattern"
+          "time": "3 hours",
+          "description": "A dimensional fuse bead flower bouquet, arranged into a vibrant and lifelike display perfect for decor or gifting.",
+          "image": "/crafts/fb-bouquet.png",
+          "videoUrl": "https://youtu.be/K6MqiFyaMsI?si=YUQ32YKjF6_yWzCr"
         }, 
         {
-          "id": "fb-mario",
-          "name": "Pixel Mario",
+          "id": "fb-animals",
+          "name": "Animal Set",
           "difficulty": "Beginner",
-          "time": "45 min",
-          "description": "The iconic 8-bit Mario sprite — a classic starter project.",
-          "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.perler.com/mario-pattern"
+          "time": "20 min each",
+          "description": "A playful fuse bead collection featuring cute animal designs, perfect for fun charms and creative decorations.",
+          "image": "/crafts/fb-animals.png",
+          "videoUrl": "https://youtu.be/-R3YGLUsjRY?si=xyP-cITGHbwaoKVV"
         },
         {
-          "id": "fb-heart",
-          "name": "Rainbow Heart",
+          "id": "fb-food",
+          "name": "Food Set",
           "difficulty": "Beginner",
-          "time": "30 min",
-          "description": "A vibrant ombre heart — perfect gift or wall art.",
-          "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.perler.com/heart-pattern"
+          "time": "20 min each",
+          "description": "A colorful fuse bead collection inspired by food designs, adding a fun and tasty touch to your crafts.",
+          "image": "/crafts/fb-food.png",
+          "videoUrl": "https://youtu.be/HsqoQPWU0no?si=_o9uJ7Y42XOiXj5h"
         },
         {
           "id": "fb-pokemon",
-          "name": "Pokémon Sprite Set",
-          "difficulty": "Beginner",
-          "time": "60 min each",
-          "description": "Classic Gen 1 Pokémon sprites — gotta make 'em all!",
-          "image": "https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.deviantart.com/pokemon-perler-patterns"
-        },
-        {
-          "id": "fb-coaster",
-          "name": "Geometric Coaster Set",
+          "name": "Lapras and Pikachu",
           "difficulty": "Intermediate",
           "time": "2 hours",
-          "description": "Four matching geometric coasters in a coordinated palette.",
-          "image": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Perler-Bead-Coasters/"
+          "description": "A detailed fuse bead design featuring iconic characters, perfect as a decorative piece or collector-inspired craft.",
+          "image": "/crafts/fb-pokemon.png",
+          "videoUrl": "https://youtu.be/fllD4WaJtJI?si=obwtf4XVu15xQCgL"
         },
         {
-          "id": "fb-cat",
-          "name": "Kawaii Cat Portrait",
+          "id": "fb-mario",
+          "name": "Mario",
           "difficulty": "Intermediate",
-          "time": "3 hours",
-          "description": "A cute stylised cat with pastel tones.",
-          "image": "https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.instructables.com/Kawaii-Cat-Perler/"
+          "time": "1 hour",
+          "description": "A vibrant Mario-inspired fuse bead design, perfect for adding a fun and nostalgic touch to your wall.",
+          "image": "/crafts/fb-mario.png",
+          "videoUrl": "https://youtu.be/835GXobrzog?si=k3P8JHuw1AMudVx9"
         },
         {
-          "id": "fb-mandala",
-          "name": "Large Mandala Panel",
+          "id": "fb-bird",
+          "name": "3D Cockatiel Birds",
           "difficulty": "Advanced",
-          "time": "8+ hours",
-          "description": "An intricate mandala spanning 4 connected boards.",
-          "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=400&h=300&fit=crop",
-          "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-          "tutorialUrl": "https://www.deviantart.com/mandala-perler-pattern"
+          "time": "2 hours",
+          "description": "Adorable 3D cockatiel birds made with fuse beads, perfect as cute decor or playful handmade gifts.",
+          "image": "/crafts/fb-bird.png",
+          "videoUrl": "https://youtu.be/_OE7vWWfwm8?si=nonS2sC-S8uJitvL"
+        },
+        {
+          "id": "fb-calendar",
+          "name": "Minecraft Bead Calendar",
+          "difficulty": "Advanced",
+          "time": "5 hours",
+          "description": "A creative 3D Perler bead calendar inspired by Minecraft, combining fun block designs with a functional display.",
+          "image": "/crafts/fb-calendar.png",
+          "videoUrl": "https://youtu.be/7UNk1zOAXv8?si=WwPRLP2LcbhCngrC"
         }
       ]
     }
@@ -624,9 +612,9 @@
   "users": [
     {
       "id": 1,
-      "username": "craftlover",
-      "email": "craftlover@example.com",
-      "password": "hashed_password_here",
+      "username": "Amberlyn",
+      "email": "amberrr0666@example.com",
+      "password": "AMber@06",
       "wishlist": ["pc-butterfly", "cr-amigurumi", "fb-mandala"],
       "createdAt": "2024-01-15T10:30:00Z"
     }
