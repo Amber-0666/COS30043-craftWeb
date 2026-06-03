@@ -1,5 +1,6 @@
 <template>
   <div v-if="craft">
+    <WelcomePopup />
     <CraftPageHeader :craft="craft" />
 
     <section class="section">
@@ -38,26 +39,6 @@
                 </div>
               </div>
             </div>
-
-            <!-- Quick links -->
-            <div class="quick-links">
-              <RouterLink :to="`/craft/${craft.slug}/learn`" class="quick-link" :style="{ '--c': craft.color }">
-                <span class="ql-icon">🎓</span>
-                <div>
-                  <strong>Start Learning</strong>
-                  <p>Video tutorials for every level</p>
-                </div>
-                <span class="ql-arrow">→</span>
-              </RouterLink>
-              <RouterLink :to="`/craft/${craft.slug}/pattern`" class="quick-link" :style="{ '--c': craft.color }">
-                <span class="ql-icon">🖼️</span>
-                <div>
-                  <strong>Browse Patterns</strong>
-                  <p>{{ craft.patterns.length }} patterns to try</p>
-                </div>
-                <span class="ql-arrow">→</span>
-              </RouterLink>
-            </div>
           </div>
         </div>
       </div>
@@ -74,6 +55,7 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { getCraft } from '../store/crafts.js'
 import CraftPageHeader from '../components/CraftPageHeader.vue'
+import WelcomePopup from '../components/WelcomePopup.vue'
 
 const route = useRoute()
 const craft = computed(() => getCraft(route.params.slug))
@@ -204,22 +186,6 @@ const craft = computed(() => getCraft(route.params.slug))
   transform: translateX(4px);
   box-shadow: var(--shadow-md);
 }
-
-.ql-icon { font-size: 24px; }
-
-.quick-link > div { flex: 1; }
-.quick-link strong { display: block; font-size: 15px; color: var(--text-dark); }
-.quick-link p { font-size: 12px; color: var(--text-light); margin-top: 2px; }
-
-.ql-arrow {
-  color: var(--c);
-  font-size: 18px;
-  font-weight: 700;
-  transition: transform var(--transition);
-}
-
-.quick-link:hover .ql-arrow { transform: translateX(4px); }
-
 .not-found {
   min-height: 50vh;
   display: flex;

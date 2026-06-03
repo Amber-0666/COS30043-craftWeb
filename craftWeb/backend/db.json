@@ -269,33 +269,116 @@
         }
       ],
 
-      "skills": [
+      "techniques": [
         {
-          "id": "cr-single",
+          "id": "cr-t-slipknot",
+          "name": "Slip Knot",
+          "category": "Foundation",
+          "abbr": "—",
+          "level": "Beginner",
+          "description": "Every crochet project begins here. The slip knot puts the first loop onto your hook.",
+          "steps": ["Make a loop with the yarn, leaving a 15cm tail.", "Bring the tail end through the loop from underneath.", "Pull the tail to tighten the knot onto the hook — snug, not tight.", "The loop should slide freely on the hook shaft."],
+          "tip": "The knot should be snug enough to stay, but loose enough that it slides along the hook.",
+          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+        },
+        {
+          "id": "cr-t-chain",
+          "name": "Chain Stitch",
+          "category": "Foundation",
+          "abbr": "ch",
+          "level": "Beginner",
+          "description": "The chain stitch forms the starting foundation row for most flat crochet projects.",
+          "steps": ["With a slip knot on your hook, yarn over (wrap yarn over hook from back to front).", "Pull the yarn through the loop on your hook.", "One chain made. Repeat for the desired number of chains.", "Count chains from the hook — do not count the loop currently on the hook."],
+          "tip": "Keep your tension consistent. Chains that are too tight will be hard to work into.", 
+          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+        },
+        {
+          "id": "cr-t-sc",
           "name": "Single Crochet",
-          "difficulty": "Beginner",
-          "time": "5 min",
-          "description": "Basic stitch used in most crochet projects.",
-          "image": "/crafts/single.png",
-          "videoUrl": "https://youtu.be/..."
+          "category": "Basic Stitches",
+          "abbr": "sc",
+          "level": "Beginner",
+          "description": "The shortest and most fundamental crochet stitch. Dense, sturdy fabric — ideal for amigurumi and bags.",
+          "steps": ["Insert hook into the indicated stitch.", "Yarn over and pull up a loop (2 loops on hook).", "Yarn over again and pull through both loops on hook.", "One single crochet complete."],
+          "tip": "Always insert under both strands of the V-shaped stitch at the top, unless the pattern says otherwise.", 
+          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
         },
         {
-          "id": "cr-double",
+          "id": "cr-t-hdc",
+          "name": "Half Double Crochet",
+          "category": "Basic Stitches",
+          "abbr": "hdc",
+          "level": "Beginner",
+          "description": "Taller than a single crochet, with a slightly softer drape. Great for hats and scarves.",
+          "steps": ["Yarn over, then insert hook into the indicated stitch.", "Yarn over and pull up a loop (3 loops on hook).", "Yarn over and pull through all 3 loops at once.", "One half double crochet complete."],
+          "tip": "The extra yarn-over before inserting creates a subtle horizontal bar — a signature look of this stitch.",
+          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+        },
+        {
+          "id": "cr-t-dc",
           "name": "Double Crochet",
-          "difficulty": "Beginner",
-          "time": "5 min",
-          "description": "Taller stitch used for faster fabric building.",
-          "image": "/crafts/double.png",
-          "videoUrl": "https://youtu.be/..."
+          "category": "Basic Stitches",
+          "abbr": "dc",
+          "level": "Beginner",
+          "description": "The workhorse stitch of crochet — twice as tall as a single crochet. Used in granny squares, blankets, and garments.",
+          "steps": ["Yarn over, insert hook into the indicated stitch.", "Yarn over and pull up a loop (3 loops on hook).", "Yarn over, pull through the first 2 loops (2 loops remain).", "Yarn over, pull through the remaining 2 loops. Done."],
+          "tip": "Turn your work with a chain-3 to replace the first double crochet of a new row.",
+          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
         },
         {
-          "id": "cr-slip",
+          "id": "cr-t-trc",
+          "name": "Treble Crochet",
+          "category": "Basic Stitches",
+          "abbr": "tr",
+          "level": "Intermediate",
+          "description": "Taller and more open than a double crochet. Creates an airy, lacy fabric.",
+          "steps": ["Yarn over twice, insert hook into the indicated stitch.", "Yarn over and pull up a loop (4 loops on hook).", "Yarn over, pull through 2 loops (3 remain).", "Yarn over, pull through 2 loops (2 remain).", "Yarn over, pull through last 2 loops. Done."],
+          "tip": "Count your loops carefully at each step — it's easy to lose track with 4 loops on the hook.",
+          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+        },
+        {
+          "id": "cr-t-magic-ring",
+          "name": "Magic Ring",
+          "category": "Foundation",
+          "abbr": "MR",
+          "level": "Beginner",
+          "description": "The magic ring (or magic circle) creates a tight, closeable center for working in the round — essential for amigurumi.",
+          "steps": ["Loop the yarn around two fingers (tail on the left, working yarn on the right).", "Insert hook through the loop, yarn over with working yarn, pull through.", "Chain 1 to secure (this does not count as a stitch).", "Work your stitches into the ring, then pull the tail to close the center tight."],
+          "tip": "Pull the tail slowly and steadily. If it won't close, check that you've crocheted over the tail as well as the ring.",
+          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+        },
+        {
+          "id": "cr-t-increase",
+          "name": "Increase (inc)",
+          "category": "Shaping",
+          "abbr": "inc",
+          "level": "Beginner",
+          "description": "Work two stitches into the same stitch to add width — how amigurumi shapes are expanded.",
+          "steps": ["Work one stitch (e.g. sc) into the indicated stitch as normal.", "Without moving, work a second identical stitch into the same stitch.", "Two stitches made in one — stitch count increases by 1."],
+          "tip": "Mark your increases with stitch markers so you don't lose your place when counting rounds.", 
+          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+        },
+        {
+          "id": "cr-t-decrease",
+          "name": "Invisible Decrease (dec)",
+          "category": "Shaping",
+          "abbr": "dec",
+          "level": "Intermediate",
+          "description": "The invisible decrease reduces stitch count without leaving a visible hole — the secret to smooth amigurumi.",
+          "steps": ["Insert hook into the front loop only of the next stitch.", "Without completing, insert hook into the front loop only of the stitch after that.", "Yarn over, pull through both front loops (2 loops on hook).", "Yarn over, pull through both loops. Decrease complete."],
+          "tip": "Using only the front loops is what makes this decrease 'invisible' compared to the standard sc2tog.",
+          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+        },
+        {
+          "id": "cr-t-slip-stitch",
           "name": "Slip Stitch",
-          "difficulty": "Beginner",
-          "time": "3 min",
-          "description": "Used to join stitches and finish work.",
-          "image": "/crafts/slip.png",
-          "videoUrl": "https://youtu.be/..."
+          "category": "Foundation",
+          "abbr": "sl st",
+          "level": "Beginner",
+          "description": "The flattest crochet stitch — used to join rounds, move across stitches without adding height, or create surface texture.",
+          "steps": ["Insert hook into the indicated stitch.", "Yarn over and pull through both the stitch AND the loop on your hook in one movement.", "One slip stitch complete — no loops remain except your working loop."],
+          "tip": "Slip stitches worked too tightly will pucker your work. Keep them loose and relaxed.",
+          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
         }
       ]
     },
