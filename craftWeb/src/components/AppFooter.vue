@@ -18,7 +18,7 @@
             <RouterLink to="/craft/fuse-beads/info">Fuse Beads</RouterLink>
           </div>
           <div class="footer-col">
-            <h4>Learn</h4>
+            <h4>Projects</h4>
             <RouterLink to="/craft/pipe-cleaner/learn">Pipe Cleaner</RouterLink>
             <RouterLink to="/craft/crochet/learn">Crochet</RouterLink>
             <RouterLink to="/craft/fuse-beads/learn">Fuse Beads</RouterLink>

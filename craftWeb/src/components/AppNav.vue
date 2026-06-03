@@ -15,7 +15,7 @@
           </RouterLink>
           <Transition name="dropdown">
             <div v-if="activeDropdown === 'pipe'" class="dropdown" style="--accent: var(--coral)">
-              <RouterLink to="/craft/pipe-cleaner/learn" class="dropdown-item" @click="closeDropdown">🎓 Learn</RouterLink>
+              <RouterLink to="/craft/pipe-cleaner/learn"   class="dropdown-item" @click="closeDropdown">🎨 Projects</RouterLink>
             </div>
           </Transition>
         </li>
@@ -28,8 +28,8 @@
           </RouterLink>
           <Transition name="dropdown">
             <div v-if="activeDropdown === 'crochet'" class="dropdown" style="--accent: var(--sage)">
-              <RouterLink to="/craft/crochet/learn"   class="dropdown-item" @click="closeDropdown">🎓 Learn</RouterLink>
-              <RouterLink to="/craft/crochet/pattern" class="dropdown-item" @click="closeDropdown">🖼️ Patterns</RouterLink>
+              <RouterLink to="/craft/crochet/learn"   class="dropdown-item" @click="closeDropdown">🎨 Projects</RouterLink>
+              <RouterLink to="/craft/crochet/pattern" class="dropdown-item" @click="closeDropdown">📚 Techniques</RouterLink>
             </div>
           </Transition>
         </li>
@@ -42,7 +42,7 @@
           </RouterLink>
           <Transition name="dropdown">
             <div v-if="activeDropdown === 'fuse'" class="dropdown" style="--accent: var(--plum)">
-              <RouterLink to="/craft/fuse-beads/learn" class="dropdown-item" @click="closeDropdown">🎓 Learn</RouterLink>
+              <RouterLink to="/craft/fuse-beads/learn"   class="dropdown-item" @click="closeDropdown">🎨 Projects</RouterLink>
             </div>
           </Transition>
         </li>
@@ -88,19 +88,19 @@
       <div v-if="mobileOpen" class="mobile-menu">
         <div class="mobile-section">
           <p class="mobile-label">🌀 Pipe Cleaner</p>
-          <RouterLink to="/craft/pipe-cleaner/info"  class="mobile-link" @click="mobileOpen=false">Info</RouterLink>
-          <RouterLink to="/craft/pipe-cleaner/learn" class="mobile-link" @click="mobileOpen=false">Learn</RouterLink>
+          <RouterLink to="/craft/pipe-cleaner/info"    class="mobile-link" @click="mobileOpen=false">Info</RouterLink>
+          <RouterLink to="/craft/pipe-cleaner/learn"   class="mobile-link" @click="mobileOpen=false">Projects</RouterLink>
         </div>
         <div class="mobile-section">
           <p class="mobile-label">🧶 Crochet</p>
           <RouterLink to="/craft/crochet/info"    class="mobile-link" @click="mobileOpen=false">Info</RouterLink>
-          <RouterLink to="/craft/crochet/learn"   class="mobile-link" @click="mobileOpen=false">Learn</RouterLink>
-          <RouterLink to="/craft/crochet/pattern" class="mobile-link" @click="mobileOpen=false">Patterns</RouterLink>
+          <RouterLink to="/craft/crochet/learn"   class="mobile-link" @click="mobileOpen=false">Projects</RouterLink>
+          <RouterLink to="/craft/crochet/pattern" class="mobile-link" @click="mobileOpen=false">Techniques</RouterLink>
         </div>
         <div class="mobile-section">
           <p class="mobile-label">🟣 Fuse Beads</p>
-          <RouterLink to="/craft/fuse-beads/info"  class="mobile-link" @click="mobileOpen=false">Info</RouterLink>
-          <RouterLink to="/craft/fuse-beads/learn" class="mobile-link" @click="mobileOpen=false">Learn</RouterLink>
+          <RouterLink to="/craft/fuse-beads/info"    class="mobile-link" @click="mobileOpen=false">Info</RouterLink>
+          <RouterLink to="/craft/fuse-beads/learn"   class="mobile-link" @click="mobileOpen=false">Projects</RouterLink>
         </div>
         <div class="mobile-section mobile-auth">
           <RouterLink to="/wishlist" class="mobile-link" @click="mobileOpen=false">❤️ Wishlist</RouterLink>
