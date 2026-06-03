@@ -178,12 +178,12 @@
           "videoUrl": "https://youtu.be/jSNZ-oLen90?si=MkoNdMzuDJLN8cly"
         },
         {
-          "id": "cr-dumpling",
-          "name": "Dumpling Pouch",
+          "id": "cr-zongzi",
+          "name": "Zong-Zi Pouch",
           "difficulty": "Intermediate",
           "time": "1 hour",
           "description": "A sturdy 3D crochet zongzi-shaped pouch, perfect as an earbud case or bag charm.",
-          "image": "/crafts/cr-dumpling.png",
+          "image": "/crafts/cr-zongzi.png",
           "videoUrl": "https://youtu.be/DGKqPufSpqY?si=oyJuVuThJVAgeBDD"
         },
         {
@@ -266,6 +266,114 @@
           "description": "A charming crochet tulip tote, inspired by blooming fields and crafted with delicate floral details.",
           "image": "/crafts/cr-bag2.png",
           "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+        },
+        {
+          "id": "cr-strap1",
+          "name": "Wide Crochet Strap",
+          "difficulty": "Beginner",
+          "time": "20 min",
+          "description": "A flat, medium-wide crochet strap with reinforced texture, enhancing durability and everyday practicality.",
+          "image": "/crafts/cr-strap1.png",
+          "videoUrl": "https://youtu.be/STN90RKkaRE?si=yp0ZGd5LjSsGwT7-"
+        },
+        {
+          "id": "cr-hairclip",
+          "name": "Elf Hat Hair Clip",
+          "difficulty": "Beginner",
+          "time": "20 min",
+          "description": " cute crochet elf hat hair clip, a versatile little accessory for adding a playful touch.",
+          "image": "/crafts/cr-hairclip.png",
+          "videoUrl": "https://youtu.be/XxE6LhX9mWQ?si=ImE4vo8dsfdYrTlz"
+        },
+        {
+          "id": "cr-tanktop",
+          "name": "Crochet Floral Tank Top",
+          "difficulty": "Intermediate",
+          "time": "2 hours",
+          "description": "A pretty crochet camisole with flower details, perfect for a light and breezy spring look.",
+          "image": "/crafts/cr-tanktop.png",
+          "videoUrl": "https://youtu.be/_nKG8gPRr6c?si=obQxesd8sYE_eBvL"
+        },
+        {
+          "id": "cr-shell",
+          "name": "Shell Stitch Shoulder Bag",
+          "difficulty": "Intermediate",
+          "time": "2 hours",
+          "description": "A  fresh crochet shoulder bag with airy shell stitches, combining light texture with soft, elegant charm.",
+          "image": "/crafts/cr-shell.png",
+          "videoUrl": "https://youtu.be/68bJWU-WhTE?si=qH-r2JHzNtCjQM_Y"
+        },
+        {
+          "id": "cr-shawl",
+          "name": "Floral Lace Shawl",
+          "difficulty": "Advanced",
+          "time": "20+ hours",
+          "description": "A lightweight crochet shawl with openwork floral patterns, creating an airy and elegant wrap.",
+          "image": "/crafts/cr-shawl.png",
+          "videoUrl": "https://youtu.be/eLE2HSW4Frc?si=6K4a03_1_klOUaLs"
+        },
+        {
+          "id": "cr-dumpling",
+          "name": "Dumpling Doll Earbud Case",
+          "difficulty": "Beginner",
+          "time": "20 min",
+          "description": "An adorable crochet dumpling-inspired pouch, perfect for earphones or as a fun accessory charm.",
+          "image": "/crafts/cr-dumpling.png",
+          "videoUrl": "https://youtu.be/yudWj7Sp6pI?si=4gDy2FwAR-_qOO1H"
+        },
+        {
+          "id": "cr-daisy",
+          "name": "Daisy Crochet Flower",
+          "difficulty": "Beginner",
+          "time": "15 min",
+          "description": "A colorful crochet daisy, perfect for decorating bags, hats, or handmade accessories.",
+          "image": "/crafts/cr-daisy.png",
+          "videoUrl": "https://youtu.be/OeTY5bVSq70?si=KiF33tL0P_gS1bg0"
+        },
+        {
+          "id": "cr-sleeve",
+          "name": "Lace Sleeve Cuffs",
+          "difficulty": "Intermediate",
+          "time": "1 hour",
+          "description": "A pair of crochet lace sleeve cuffs, perfect for layering to add a soft and forest-inspired winter touch",
+          "image": "/crafts/cr-sleeve.png",
+          "videoUrl": "https://youtu.be/3MpmbjO51xQ?si=Klcl2oFBqHDl2ANa"
+        },
+        {
+          "id": "cr-jellyfish",
+          "name": "Cute Jellyfish Hat",
+          "difficulty": "Intermediate",
+          "time": "2 hours",
+          "description": "A cozy crochet jellyfish hat with a soft feel and playful, adorable charm.",
+          "image": "/crafts/cr-jellyfish.png",
+          "videoUrl": "https://youtu.be/UB8vX2dy2IM?si=i1Ay6UyUOA1zvOTY"
+        },
+        {
+          "id": "cr-wheat",
+          "name": "Wheat Drawstring Tote",
+          "difficulty": "Intermediate",
+          "time": "1 hour",
+          "description": "A sturdy crochet tote with a wheat-stitch texture, designed with a cute drawstring for shape and function.",
+          "image": "/crafts/cr-wheat.png",
+          "videoUrl": "https://youtu.be/_tK_LiJpTy8?si=g5sYuWSDRCMmO6Yb"
+        },
+        {
+          "id": "cr-trishawl",
+          "name": "Floral Patchwork Triangle Shawl",
+          "difficulty": "Advanced",
+          "time": "20+ hours",
+          "description": "A  soft and elegant crochet shawl with floral patchwork, designed for a gentle and classic look.",
+          "image": "/crafts/cr-trishawl.png",
+          "videoUrl": "https://youtu.be/BGKqjWpEVZs?si=dz6WWIO_JRbMFVYr"
+        },
+        {
+          "id": "cr-blanket",
+          "name": "Seven-Star Cozy Blanket",
+          "difficulty": "Advanced",
+          "time": "20+ hours",
+          "description": "A soft crochet blanket with seven-star motifs, offering gentle cushioning and a warm, flowing comfort.",
+          "image": "/crafts/cr-blanket.png",
+          "videoUrl": "https://youtu.be/MwqWO_CS7N0?si=wZICs8rpWiRO7F-T"
         }
       ],
 
@@ -279,7 +387,7 @@
           "description": "Every crochet project begins here. The slip knot puts the first loop onto your hook.",
           "steps": ["Make a loop with the yarn, leaving a 15cm tail.", "Bring the tail end through the loop from underneath.", "Pull the tail to tighten the knot onto the hook — snug, not tight.", "The loop should slide freely on the hook shaft."],
           "tip": "The knot should be snug enough to stay, but loose enough that it slides along the hook.",
-          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+          "videoUrl": "https://youtu.be/THBKnrzyjhU?si=KeQxRKXxMtIJVSdG"
         },
         {
           "id": "cr-t-chain",
@@ -290,7 +398,7 @@
           "description": "The chain stitch forms the starting foundation row for most flat crochet projects.",
           "steps": ["With a slip knot on your hook, yarn over (wrap yarn over hook from back to front).", "Pull the yarn through the loop on your hook.", "One chain made. Repeat for the desired number of chains.", "Count chains from the hook — do not count the loop currently on the hook."],
           "tip": "Keep your tension consistent. Chains that are too tight will be hard to work into.", 
-          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+          "videoUrl": "https://youtu.be/7v-mssy5rKU?si=UVliMKYamBzTta7X"
         },
         {
           "id": "cr-t-sc",
@@ -301,7 +409,7 @@
           "description": "The shortest and most fundamental crochet stitch. Dense, sturdy fabric — ideal for amigurumi and bags.",
           "steps": ["Insert hook into the indicated stitch.", "Yarn over and pull up a loop (2 loops on hook).", "Yarn over again and pull through both loops on hook.", "One single crochet complete."],
           "tip": "Always insert under both strands of the V-shaped stitch at the top, unless the pattern says otherwise.", 
-          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+          "videoUrl": "https://youtu.be/SFySpwJKHIc?si=hZgZ3p3lKHIX06RD"
         },
         {
           "id": "cr-t-hdc",
@@ -312,7 +420,7 @@
           "description": "Taller than a single crochet, with a slightly softer drape. Great for hats and scarves.",
           "steps": ["Yarn over, then insert hook into the indicated stitch.", "Yarn over and pull up a loop (3 loops on hook).", "Yarn over and pull through all 3 loops at once.", "One half double crochet complete."],
           "tip": "The extra yarn-over before inserting creates a subtle horizontal bar — a signature look of this stitch.",
-          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+          "videoUrl": "https://youtu.be/xwrIkdz0KIo?si=XgBxbcLyEeks4zbf"
         },
         {
           "id": "cr-t-dc",
@@ -323,7 +431,7 @@
           "description": "The workhorse stitch of crochet — twice as tall as a single crochet. Used in granny squares, blankets, and garments.",
           "steps": ["Yarn over, insert hook into the indicated stitch.", "Yarn over and pull up a loop (3 loops on hook).", "Yarn over, pull through the first 2 loops (2 loops remain).", "Yarn over, pull through the remaining 2 loops. Done."],
           "tip": "Turn your work with a chain-3 to replace the first double crochet of a new row.",
-          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+          "videoUrl": "https://youtu.be/FvJpjw-XA4E?si=WZ9MM6lt-7FG-Zxn"
         },
         {
           "id": "cr-t-trc",
@@ -334,7 +442,7 @@
           "description": "Taller and more open than a double crochet. Creates an airy, lacy fabric.",
           "steps": ["Yarn over twice, insert hook into the indicated stitch.", "Yarn over and pull up a loop (4 loops on hook).", "Yarn over, pull through 2 loops (3 remain).", "Yarn over, pull through 2 loops (2 remain).", "Yarn over, pull through last 2 loops. Done."],
           "tip": "Count your loops carefully at each step — it's easy to lose track with 4 loops on the hook.",
-          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+          "videoUrl": "https://youtu.be/naMO3FNYuSw?si=ke3IltofQwbCFNZ3"
         },
         {
           "id": "cr-t-magic-ring",
@@ -345,7 +453,7 @@
           "description": "The magic ring (or magic circle) creates a tight, closeable center for working in the round — essential for amigurumi.",
           "steps": ["Loop the yarn around two fingers (tail on the left, working yarn on the right).", "Insert hook through the loop, yarn over with working yarn, pull through.", "Chain 1 to secure (this does not count as a stitch).", "Work your stitches into the ring, then pull the tail to close the center tight."],
           "tip": "Pull the tail slowly and steadily. If it won't close, check that you've crocheted over the tail as well as the ring.",
-          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+          "videoUrl": "https://youtu.be/0m0952XQjbA?si=oM_9Tv7cK8PneaJt"
         },
         {
           "id": "cr-t-increase",
@@ -356,7 +464,7 @@
           "description": "Work two stitches into the same stitch to add width — how amigurumi shapes are expanded.",
           "steps": ["Work one stitch (e.g. sc) into the indicated stitch as normal.", "Without moving, work a second identical stitch into the same stitch.", "Two stitches made in one — stitch count increases by 1."],
           "tip": "Mark your increases with stitch markers so you don't lose your place when counting rounds.", 
-          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+          "videoUrl": "https://youtu.be/aw5xJn8qiXM?si=bZwc8hh_ShrVrgg8"
         },
         {
           "id": "cr-t-decrease",
@@ -367,7 +475,7 @@
           "description": "The invisible decrease reduces stitch count without leaving a visible hole — the secret to smooth amigurumi.",
           "steps": ["Insert hook into the front loop only of the next stitch.", "Without completing, insert hook into the front loop only of the stitch after that.", "Yarn over, pull through both front loops (2 loops on hook).", "Yarn over, pull through both loops. Decrease complete."],
           "tip": "Using only the front loops is what makes this decrease 'invisible' compared to the standard sc2tog.",
-          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+          "videoUrl": "https://youtu.be/NIZM5mhy0WU?si=F-CZ8d_E8BPifEXi"
         },
         {
           "id": "cr-t-slip-stitch",
@@ -378,7 +486,7 @@
           "description": "The flattest crochet stitch — used to join rounds, move across stitches without adding height, or create surface texture.",
           "steps": ["Insert hook into the indicated stitch.", "Yarn over and pull through both the stitch AND the loop on your hook in one movement.", "One slip stitch complete — no loops remain except your working loop."],
           "tip": "Slip stitches worked too tightly will pucker your work. Keep them loose and relaxed.",
-          "videoUrl": "https://youtu.be/LLe4TmGwKtg?si=xqAnRcE53hVzFtKM"
+          "videoUrl": "https://youtu.be/8ir3v31G0sg?si=IG_EdhWrCjiatUL5"
         }
       ]
     },
