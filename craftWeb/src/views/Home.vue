@@ -21,8 +21,8 @@
             find tutorials, patterns, and inspiration for every skill level.
           </p>
           <div class="hero-actions">
-            <RouterLink to="/craft/pipe-cleaner/learn" class="btn btn-primary">Start Crafting →</RouterLink>
             <RouterLink to="/craft/crochet/info" class="btn btn-outline">Explore Crafts</RouterLink>
+            <RouterLink to="/craft/crochet/learn" class="btn btn-primary">Start Crafting →</RouterLink>
           </div>
           <div class="hero-stats">
             <div class="stat"><span class="stat-num">3</span><span class="stat-label">Craft Types</span></div>

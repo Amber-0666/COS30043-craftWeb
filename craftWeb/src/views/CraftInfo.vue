@@ -1,6 +1,5 @@
 <template>
   <div v-if="craft">
-    <WelcomePopup />
     <CraftPageHeader :craft="craft" />
 
     <section class="section">

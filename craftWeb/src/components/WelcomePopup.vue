@@ -46,15 +46,11 @@ const totalPatterns = crafts.reduce((acc, c) => acc + c.patterns.length, 0)
 const visible = ref(false)
 
 onMounted(() => {
-  // Show only once per session
-  if (!sessionStorage.getItem('craftnest_popup_seen')) {
-    setTimeout(() => { visible.value = true }, 900)
-  }
+  setTimeout(() => { visible.value = true }, 900)
 })
 
 function dismiss() {
   visible.value = false
-  sessionStorage.setItem('craftnest_popup_seen', '1')
 }
 </script>
 
