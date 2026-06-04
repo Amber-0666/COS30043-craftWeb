@@ -19,9 +19,9 @@
           <h2>Your wishlist is empty</h2>
           <p>Browse patterns across our crafts and tap the heart to save them here.</p>
           <div class="empty-actions">
-            <RouterLink to="/craft/pipe-cleaner/learn" class="btn btn-primary">🌀 Pipe Cleaner Patterns</RouterLink>
-            <RouterLink to="/craft/crochet/learn" class="btn btn-sage">🧶 Crochet Patterns</RouterLink>
-            <RouterLink to="/craft/fuse-beads/learn" class="btn btn-outline">🟣 Fuse Bead Patterns</RouterLink>
+            <RouterLink to="/craft/pipe-cleaner/learn" class="btn btn-primary">🌀 Pipe Cleaner Projects</RouterLink>
+            <RouterLink to="/craft/crochet/learn" class="btn btn-sage">🧶 Crochet Projects</RouterLink>
+            <RouterLink to="/craft/fuse-beads/learn" class="btn btn-outline">🟣 Fuse Bead Projects</RouterLink>
           </div>
         </div>
 
