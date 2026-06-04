@@ -19,9 +19,9 @@
           <h2>Your wishlist is empty</h2>
           <p>Browse patterns across our crafts and tap the heart to save them here.</p>
           <div class="empty-actions">
-            <RouterLink to="/craft/pipe-cleaner/pattern" class="btn btn-primary">🌀 Pipe Cleaner Patterns</RouterLink>
-            <RouterLink to="/craft/crochet/pattern" class="btn btn-sage">🧶 Crochet Patterns</RouterLink>
-            <RouterLink to="/craft/fuse-beads/pattern" class="btn btn-outline">🟣 Fuse Bead Patterns</RouterLink>
+            <RouterLink to="/craft/pipe-cleaner/learn" class="btn btn-primary">🌀 Pipe Cleaner Patterns</RouterLink>
+            <RouterLink to="/craft/crochet/learn" class="btn btn-sage">🧶 Crochet Patterns</RouterLink>
+            <RouterLink to="/craft/fuse-beads/learn" class="btn btn-outline">🟣 Fuse Bead Patterns</RouterLink>
           </div>
         </div>
 
@@ -47,8 +47,8 @@
                   </div>
                   <h3 class="wl-item-title">{{ item.patternName }}</h3>
                   <div class="wl-actions">
-                    <RouterLink :to="`/craft/${item.craftId}/pattern`" class="btn btn-sage" style="font-size:13px;padding:8px 14px;">
-                      View Pattern
+                    <RouterLink :to="`/craft/${item.craftId}/learn`" class="btn btn-sage" style="font-size:13px;padding:8px 14px;">
+                      View Project
                     </RouterLink>
                     <button class="btn btn-remove" @click="removeItem(item.patternId, item.patternName)" style="font-size:13px;padding:8px 14px;">
                       🗑️ Remove
@@ -122,15 +122,11 @@ function removeItem(patternId, name) {
 }
 
 function clearAll() {
-  wishlist.items.splice(0)
-  wishlist.reload()
-  // Also clear from localStorage
-  wishlist.items.length = 0
+  wishlist.clearAll()
   showClearConfirm.value = false
   showToast('Wishlist cleared', 'success')
-  // Hack: force reload
-  window.location.reload()
 }
+
 </script>
 
 <style scoped>

@@ -59,5 +59,10 @@ export const useWishlistStore = defineStore('wishlist', () => {
     items.value = JSON.parse(localStorage.getItem(getStorageKey()) || '[]')
   }
 
-  return { items, count, isWishlisted, addItem, removeItem, toggleItem, reload }
+  function clearAll() {
+    items.value = []
+    save()
+  }
+
+  return { items, count, isWishlisted, addItem, removeItem, toggleItem, reload, clearAll }
 })

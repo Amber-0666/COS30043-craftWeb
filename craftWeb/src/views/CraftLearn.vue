@@ -26,6 +26,9 @@
               <div class="proj-img">
                 <img :src="project.image" :alt="project.name" loading="lazy"
                      @error="e => e.target.src='https://images.unsplash.com/photo-1558171813-5a395b42cf63?w=400&h=300&fit=crop'" />
+                     <button class="wishlist-btn" @click="toggleWishlist(project)">
+                      {{ isSaved(project.id) ? '❤️' : '🤍' }}
+                    </button>
                 <span :class="['badge', `badge-${project.difficulty.toLowerCase()}`]" class="proj-badge">
                   {{ project.difficulty }}
                 </span>
@@ -93,9 +96,11 @@ import { ref, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { getCraft } from '../store/crafts.js'
 import CraftPageHeader from '../components/CraftPageHeader.vue'
+import { useWishlistStore } from '../store/wishlist.js'
 
 const route = useRoute()
 const craft = computed(() => getCraft(route.params.slug))
+const wishlist = useWishlistStore()
 
 const PER_PAGE = 9
 const levels = ['All', 'Beginner', 'Intermediate', 'Advanced']
@@ -120,6 +125,18 @@ function goToPage(p, direction) {
   pageTransitionName.value = direction === 'next' ? 'slide-next' : 'slide-prev'
   currentPage.value = p
   window.scrollTo({ top: 280, behavior: 'smooth' })
+}
+
+function isSaved(projectId) {
+  return wishlist.items.some(i => i.patternId === projectId)
+}
+
+function toggleWishlist(project) {
+  wishlist.toggleItem(
+    project,               
+    craft.value.id,         
+    craft.value.name       
+  )
 }
 
 const tips = [
@@ -187,6 +204,11 @@ const tips = [
 
 .empty-state { text-align: center; padding: 60px; color: var(--text-light); }
 .empty-state span { font-size: 48px; display: block; margin-bottom: 16px; }
+
+.wishlist-btn { position: absolute; top: 12px; right: 12px; background: white;
+  border-radius: 50%; width: 32px; height: 32px; border: none; cursor: pointer;
+  font-size: 16px; display: flex; align-items: center; justify-content: center;
+}
 
 /* Pagination */
 .pagination {
