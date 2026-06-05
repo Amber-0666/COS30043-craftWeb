@@ -1,68 +1,55 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
+import { apiGetWishlist, apiAddToWishlist, apiRemoveFromWishlist } from '../services/api.js'
 import { useAuthStore } from './auth.js'
 
 export const useWishlistStore = defineStore('wishlist', () => {
-  // Load from localStorage, keyed by user
-  function getStorageKey() {
-    const auth = useAuthStore()
-    return auth.user ? `craftnest_wishlist_${auth.user.id}` : 'craftnest_wishlist_guest'
-  }
-
-  const items = ref(JSON.parse(localStorage.getItem(getStorageKey()) || '[]'))
-
+  const items = ref([])
   const count = computed(() => items.value.length)
 
-  function save() {
-    localStorage.setItem(getStorageKey(), JSON.stringify(items.value))
+  // Load from API on login
+  async function loadFromServer() {
+    const auth = useAuthStore()
+    if (!auth.isLoggedIn) return
+    const data = await apiGetWishlist()
+    if (Array.isArray(data)) items.value = data
   }
 
   function isWishlisted(patternId) {
-    return items.value.some(i => i.patternId === patternId)
+    return items.value.some(i => i.pattern_id === patternId || i.patternId === patternId)
   }
 
-  function addItem(pattern, craftId, craftName) {
-    if (!isWishlisted(pattern.id)) {
-      items.value.push({
-        patternId: pattern.id,
-        patternName: pattern.name,
-        craftId,
-        craftName,
-        difficulty: pattern.difficulty,
-        time: pattern.time,
-        image: pattern.image,
-        addedAt: new Date().toISOString()
-      })
-      save()
-      return true
-    }
-    return false
+  async function addItem(pattern, craftId, craftName) {
+    if (isWishlisted(pattern.id)) return false
+    await apiAddToWishlist({
+      patternId:   pattern.id,
+      craftId,
+      craftName,
+      patternName: pattern.name,
+      difficulty:  pattern.difficulty,
+      time:        pattern.time,
+      image:       pattern.image
+    })
+    await loadFromServer() // refresh from DB
+    return true
   }
 
-  function removeItem(patternId) {
-    items.value = items.value.filter(i => i.patternId !== patternId)
-    save()
+  async function removeItem(patternId) {
+    await apiRemoveFromWishlist(patternId)
+    items.value = items.value.filter(
+      i => i.pattern_id !== patternId && i.patternId !== patternId
+    )
   }
 
-  function toggleItem(pattern, craftId, craftName) {
+  async function toggleItem(pattern, craftId, craftName) {
     if (isWishlisted(pattern.id)) {
-      removeItem(pattern.id)
+      await removeItem(pattern.id)
       return false
     } else {
-      addItem(pattern, craftId, craftName)
+      await addItem(pattern, craftId, craftName)
       return true
     }
   }
 
-  // Reload when user changes
-  function reload() {
-    items.value = JSON.parse(localStorage.getItem(getStorageKey()) || '[]')
-  }
-
-  function clearAll() {
-    items.value = []
-    save()
-  }
-
-  return { items, count, isWishlisted, addItem, removeItem, toggleItem, reload, clearAll }
+  return { items, count, isWishlisted, addItem, removeItem, toggleItem, loadFromServer }
 })

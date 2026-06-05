@@ -99,6 +99,7 @@ import { ref, reactive, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { useAuthStore } from '../store/auth.js'
 import { inject } from 'vue'
+import { apiRegister } from '../services/api.js'
 
 const router = useRouter()
 const auth = useAuthStore()
@@ -147,10 +148,18 @@ function validate() {
 async function handleRegister() {
   if (!validate()) return
   loading.value = true
-  await new Promise(r => setTimeout(r, 900))
-  const newUser = { id: Date.now(), username: form.username, email: form.email }
-  auth.login(newUser, `fake-token-${Date.now()}`)
-  showToast(`Account created! Welcome, ${form.username}! 🎉`, 'success')
+
+  const data = await apiRegister(form.username, form.email, form.password)
+
+  if (data.error) {
+    errors.general = data.error  // show server error in form
+    loading.value = false
+    return
+  }
+
+  // Real user + real token from server
+  auth.login(data.user, data.token)
+  showToast(`Welcome, ${data.user.username}! 🎉`, 'success')
   router.push('/')
   loading.value = false
 }

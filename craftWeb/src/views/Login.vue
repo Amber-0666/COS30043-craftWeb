@@ -72,6 +72,7 @@ import { ref, reactive } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useAuthStore } from '../store/auth.js'
 import { inject } from 'vue'
+import { apiLogin } from '../services/api.js'
 
 const router = useRouter()
 const route = useRoute()
@@ -97,15 +98,17 @@ function validate() {
 async function handleLogin() {
   if (!validate()) return
   loading.value = true
-  // Simulate API call (in real app, call backend endpoint)
-  await new Promise(r => setTimeout(r, 800))
-  const fakeUser = {
-    id: Date.now(),
-    username: form.email.split('@')[0],
-    email: form.email
+
+  const data = await apiLogin(form.email, form.password)
+
+  if (data.error) {
+    errors.general = data.error
+    loading.value = false
+    return
   }
-  auth.login(fakeUser, `fake-token-${Date.now()}`)
-  showToast(`Welcome back, ${fakeUser.username}! 🎉`, 'success')
+
+  auth.login(data.user, data.token)
+  showToast(`Welcome back, ${data.user.username}! 🎉`, 'success')
   const redirect = route.query.redirect || '/'
   router.push(redirect)
   loading.value = false
