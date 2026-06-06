@@ -54,7 +54,6 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { getCraft } from '../store/crafts.js'
 import CraftPageHeader from '../components/CraftPageHeader.vue'
-import WelcomePopup from '../components/WelcomePopup.vue'
 
 const route = useRoute()
 const craft = computed(() => getCraft(route.params.slug))
