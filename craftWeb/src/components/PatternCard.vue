@@ -28,7 +28,6 @@
 <script setup>
 import { computed, inject } from 'vue'
 import { useWishlistStore } from '../store/wishlist.js'
-import { useAuthStore } from '../store/auth.js'
 import { useRouter } from 'vue-router'
 
 const props = defineProps({
@@ -38,15 +37,17 @@ const props = defineProps({
 })
 
 const wishlist = useWishlistStore()
-const auth = useAuthStore()
 const router = useRouter()
 const showToast = inject('showToast')
 
 const isWished = computed(() => wishlist.isWishlisted(props.pattern.id))
 
-function toggleWish() {
+async function toggleWish() {
   const added = wishlist.toggleItem(props.pattern, props.craftId, props.craftName)
-  if (added) {
+  if (result === 'not-logged-in') {
+    showToast('Please log in to save to your wishlist 🔒', 'error')
+    router.push({ name: 'Login' })
+  } else if (result === true) {
     showToast(`"${props.pattern.name}" added to wishlist ❤️`, 'success')
   } else {
     showToast(`"${props.pattern.name}" removed from wishlist`, 'success')
