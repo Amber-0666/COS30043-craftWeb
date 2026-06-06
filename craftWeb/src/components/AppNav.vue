@@ -86,7 +86,7 @@
     </div>
 
     <Transition name="mobile-menu">
-      <div v-if="mobileOpen" class="mobile-menu">
+      <div v-if="mobileOpen" class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
         <div class="mobile-section">
           <p class="mobile-label">🌀 Pipe Cleaner</p>
           <RouterLink to="/craft/pipe-cleaner/info"    class="mobile-link" @click="mobileOpen=false">Info</RouterLink>
