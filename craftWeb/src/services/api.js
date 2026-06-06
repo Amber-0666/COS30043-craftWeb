@@ -35,6 +35,7 @@ export async function apiGetWishlist() {
   const res = await fetch(`${BASE}/wishlist`, {
     headers: authHeaders()
   })
+  if (!res.ok) throw new Error('Failed to get wishlist')
   return res.json()
 }
 
@@ -44,6 +45,7 @@ export async function apiAddToWishlist(item) {
     headers: authHeaders(),
     body: JSON.stringify(item)
   })
+  if (!res.ok) throw new Error('Failed to add to wishlist')
   return res.json()
 }
 
@@ -52,5 +54,15 @@ export async function apiRemoveFromWishlist(patternId) {
     method: 'DELETE',
     headers: authHeaders()
   })
+  if (!res.ok) throw new Error('Failed to remove from wishlist')
+  return res.json()
+}
+
+export async function apiClearWishlist() {
+  const res = await fetch(`${BASE}/wishlist`, {
+    method: 'DELETE',
+    headers: authHeaders()
+  })
+  if (!res.ok) throw new Error('Failed to clear wishlist')
   return res.json()
 }

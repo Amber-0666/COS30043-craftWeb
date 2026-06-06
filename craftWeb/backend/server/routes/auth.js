@@ -29,7 +29,7 @@ router.post('/register', async (req, res) => {
     }
 
     // Hash the password — NEVER store plain text
-    const hashedPassword = await bcrypt.hash(password, 12)
+    const hashedPassword = await bcrypt.hash(password, 10)
 
     // Insert into database
     const result = db.prepare(

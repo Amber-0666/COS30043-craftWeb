@@ -54,4 +54,12 @@ router.delete('/:patternId', auth, (req, res) => {
   res.json({ message: 'Removed from wishlist.' })
 })
 
+// ── CLEAR ALL items for user ──────────────────
+router.delete('/', auth, (req, res) => {
+  db.prepare(
+    'DELETE FROM wishlist WHERE user_id = ?'
+  ).run(req.user.id)
+  res.json({ message: 'Wishlist cleared.' })
+})
+
 module.exports = router

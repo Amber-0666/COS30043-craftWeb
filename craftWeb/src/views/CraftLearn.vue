@@ -92,15 +92,18 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, inject } from 'vue'
 import { useRoute } from 'vue-router'
+import { useRouter } from 'vue-router'
 import { getCraft } from '../store/crafts.js'
 import CraftPageHeader from '../components/CraftPageHeader.vue'
 import { useWishlistStore } from '../store/wishlist.js'
 
 const route = useRoute()
+const router = useRouter()
 const craft = computed(() => getCraft(route.params.slug))
 const wishlist = useWishlistStore()
+const showToast = inject('showToast')
 
 const PER_PAGE = 9
 const levels = ['All', 'Beginner', 'Intermediate', 'Advanced']
@@ -128,15 +131,23 @@ function goToPage(p, direction) {
 }
 
 function isSaved(projectId) {
-  return wishlist.items.some(i => i.patternId === projectId)
+  return wishlist.isWishlisted(projectId)
 }
 
-function toggleWishlist(project) {
-  wishlist.toggleItem(
-    project,               
-    craft.value.id,         
-    craft.value.name       
+async function toggleWishlist(project) {
+  const result = await wishlist.toggleItem(
+    project,
+    craft.value.id,
+    craft.value.name
   )
+  if (result === 'not-logged-in') {
+    showToast('Please log in to save to your wishlist 🔒', 'error')
+    router.push({ name: 'Login', query: { redirect: route.fullPath } })
+  } else if (result === true) {
+    showToast(`"${project.name}" added to wishlist ❤️`, 'success')
+  } else {
+    showToast(`"${project.name}" removed from wishlist`, 'success')
+  }
 }
 
 const tips = [

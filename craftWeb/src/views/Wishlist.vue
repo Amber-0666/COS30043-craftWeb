@@ -38,7 +38,9 @@
             <div class="wl-grid">
               <div v-for="item in group.items" :key="item.patternId" class="wl-card card">
                 <div class="wl-img">
-                  <img :src="item.image" :alt="item.patternName" loading="lazy" />
+                  <img :src="item.image" :alt="item.patternName" loading="lazy"
+                    @error="e => e.target.src='https://images.unsplash.com/photo-1558171813-5a395b42cf63?w=400&h=300&fit=crop'"
+                  />
                 </div>
                 <div class="wl-body">
                   <div class="wl-meta">
@@ -86,11 +88,12 @@
 </template>
 
 <script setup>
-import { ref, computed, inject } from 'vue'
+import { ref, computed, inject, onMounted } from 'vue'
 import { useWishlistStore } from '../store/wishlist.js'
 import { getAllCrafts } from '../store/crafts.js'
 
 const wishlist = useWishlistStore()
+onMounted(() => { wishlist.loadFromServer() })
 const showToast = inject('showToast')
 const showClearConfirm = ref(false)
 
@@ -233,6 +236,7 @@ function clearAll() {
 .wl-img {
   aspect-ratio: 16/9;
   overflow: hidden;
+  background: var(--mint);
 }
 
 .wl-img img {
