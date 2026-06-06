@@ -40,8 +40,8 @@ function onMouseUp() {
 }
 
 onMounted(() => {
-  window.addEventListener('mousemove', moveCursor)
-  window.addEventListener('mouseover', onMouseOver)
+  window.addEventListener('mousemove', moveCursor, { passive: true })
+  window.addEventListener('mouseover', onMouseOver, { passive: true })
   window.addEventListener('mousedown', onMouseDown)
   window.addEventListener('mouseup', onMouseUp)
 })
@@ -72,9 +72,9 @@ onUnmounted(() => {
   z-index: 99999;
 
   transition:
-    transform 0.18s ease,
-    filter 0.18s ease;
-
+    filter 0.15s ease, 
+    font-size 0.15s ease;
+  
   will-change: transform;
 }
 
