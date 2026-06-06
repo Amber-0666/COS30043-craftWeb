@@ -43,7 +43,7 @@ const showToast = inject('showToast')
 const isWished = computed(() => wishlist.isWishlisted(props.pattern.id))
 
 async function toggleWish() {
-  const added = wishlist.toggleItem(props.pattern, props.craftId, props.craftName)
+  const result = await wishlist.toggleItem(props.pattern, props.craftId, props.craftName)
   if (result === 'not-logged-in') {
     showToast('Please log in to save to your wishlist 🔒', 'error')
     router.push({ name: 'Login' })

@@ -93,7 +93,7 @@ function validate() {
   let ok = true
   if (!form.email) { errors.email = 'Email is required.'; ok = false }
   else if (!/\S+@\S+\.\S+/.test(form.email)) { errors.email = 'Enter a valid email.'; ok = false }
-  if (!form.password || form.password.length < 4) { errors.password = 'Password must be at least 4 characters.'; ok = false }
+  if (!form.password || form.password.length < 6) { errors.password = 'Password must be at least 6 characters.'; ok = false }
   return ok
 }
 
@@ -101,19 +101,24 @@ async function handleLogin() {
   if (!validate()) return
   loading.value = true
 
-  const data = await apiLogin(form.email, form.password)
+  try {
+    const data = await apiLogin(form.email, form.password)
 
-  if (data.error) {
-    errors.general = data.error
+    if (data.error) {
+      errors.general = data.error
+      loading.value = false
+      return
+    }
+
+    auth.login(data.user, data.token)
+    showToast(`Welcome back, ${data.user.username}! 🎉`, 'success')
+    const redirect = route.query.redirect || '/'
+    router.push(redirect)
+  } catch {
+    errors.general = 'Unable to connect to server. Please try again.'
+  } finally {
     loading.value = false
-    return
   }
-
-  auth.login(data.user, data.token)
-  showToast(`Welcome back, ${data.user.username}! 🎉`, 'success')
-  const redirect = route.query.redirect || '/'
-  router.push(redirect)
-  loading.value = false
 }
 </script>
 
