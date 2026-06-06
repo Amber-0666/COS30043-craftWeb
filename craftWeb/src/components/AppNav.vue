@@ -109,7 +109,7 @@
             <RouterLink to="/register" class="mobile-link" @click="mobileOpen=false">Register</RouterLink>
           </template>
           <template v-else>
-            <button class="mobile-link" style="text-align:left;background:none;border:none;font-family:inherit;font-size:inherit;cursor:none;color:inherit;" @click="handleLogout">Logout ({{ auth.user.username }})</button>
+            <button class="mobile-link" style="text-align:left;background:none;border:none;font-family:inherit;font-size:inherit;color:inherit;" @click="handleLogout">Logout ({{ auth.user.username }})</button>
           </template>
         </div>
       </div>
