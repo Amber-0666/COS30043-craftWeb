@@ -8,7 +8,7 @@ const wishlistRoutes = require('./routes/wishlist')
 const app = express()
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:5173' })) // Vue dev server
+app.use(cors({ origin: ['http://localhost:5173', 'https://craftnest.pages.dev'] })) // Vue dev server
 app.use(express.json())
 
 // Routes
