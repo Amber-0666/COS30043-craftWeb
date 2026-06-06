@@ -46,10 +46,12 @@ const totalPatterns = crafts.reduce((acc, c) => acc + c.patterns.length, 0)
 const visible = ref(false)
 
 onMounted(() => {
+  if (sessionStorage.getItem('craftnest_seen')) return  // add this
   setTimeout(() => { visible.value = true }, 900)
 })
 
 function dismiss() {
+  sessionStorage.setItem('craftnest_seen', '1')  // add this
   visible.value = false
 }
 </script>
