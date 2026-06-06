@@ -26,7 +26,8 @@
               <div class="proj-img">
                 <img :src="project.image" :alt="project.name" loading="lazy"
                      @error="e => e.target.src='https://images.unsplash.com/photo-1558171813-5a395b42cf63?w=400&h=300&fit=crop'" />
-                     <button class="wishlist-btn" @click="toggleWishlist(project)">
+                     <button class="wishlist-btn" @click="toggleWishlist(project)"
+                             :aria-label="isSaved(project.id) ? 'Remove from wishlist' : 'Add to wishlist'">
                       {{ isSaved(project.id) ? '❤️' : '🤍' }}
                     </button>
                 <span :class="['badge', `badge-${project.difficulty.toLowerCase()}`]" class="proj-badge">

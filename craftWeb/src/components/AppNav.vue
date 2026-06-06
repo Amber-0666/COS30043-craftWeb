@@ -8,8 +8,10 @@
 
       <ul class="nav-links">
         <!-- Pipe Cleaner — clicking nav link goes to info; dropdown has Learn only -->
-        <li class="nav-item has-dropdown" @mouseenter="openDropdown('pipe')" @mouseleave="closeDropdown">
-          <RouterLink to="/craft/pipe-cleaner/info" class="nav-link" :class="{ active: route.params.slug === 'pipe-cleaner' }">
+        <li class="nav-item has-dropdown" @mouseenter="openDropdown('pipe')" @mouseleave="closeDropdown"
+            @focus="openDropdown('pipe')" @keydown.escape="closeDropdown">
+          <RouterLink to="/craft/pipe-cleaner/info" class="nav-link" :class="{ active: route.params.slug === 'pipe-cleaner' }"
+                      @keydown.down.prevent="openDropdown('pipe')">
             <span>🌀</span> Pipe Cleaner
             <svg class="chevron" viewBox="0 0 24 24" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
           </RouterLink>
@@ -21,8 +23,10 @@
         </li>
 
         <!-- Crochet -->
-        <li class="nav-item has-dropdown" @mouseenter="openDropdown('crochet')" @mouseleave="closeDropdown">
-          <RouterLink to="/craft/crochet/info" class="nav-link" :class="{ active: route.params.slug === 'crochet' }">
+        <li class="nav-item has-dropdown" @mouseenter="openDropdown('crochet')" @mouseleave="closeDropdown"
+            @focus="openDropdown('crochet')" @keydown.escape="closeDropdown">
+          <RouterLink to="/craft/crochet/info" class="nav-link" :class="{ active: route.params.slug === 'crochet' }"
+                      @keydown.down.prevent="openDropdown('crochet')">
             <span>🧶</span> Crochet
             <svg class="chevron" viewBox="0 0 24 24" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
           </RouterLink>
@@ -35,8 +39,10 @@
         </li>
 
         <!-- Fuse Beads -->
-        <li class="nav-item has-dropdown" @mouseenter="openDropdown('fuse')" @mouseleave="closeDropdown">
-          <RouterLink to="/craft/fuse-beads/info" class="nav-link" :class="{ active: route.params.slug === 'fuse-beads' }">
+        <li class="nav-item has-dropdown" @mouseenter="openDropdown('fuse')" @mouseleave="closeDropdown"
+            @focus="openDropdown('fuse')" @keydown.escape="closeDropdown">
+          <RouterLink to="/craft/fuse-beads/info" class="nav-link" :class="{ active: route.params.slug === 'fuse-beads' }"
+                      @keydown.down.prevent="openDropdown('fuse')">
             <span>🟣</span> Fuse Beads
             <svg class="chevron" viewBox="0 0 24 24" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
           </RouterLink>
@@ -62,8 +68,9 @@
             <RouterLink to="/register" class="btn btn-primary btn-sm">Register</RouterLink>
           </template>
           <template v-else>
-            <div class="user-menu has-dropdown" @mouseenter="openDropdown('user')" @mouseleave="closeDropdown">
-              <button class="user-btn">
+            <div class="user-menu has-dropdown" @mouseenter="openDropdown('user')" @mouseleave="closeDropdown"
+                 @focus="openDropdown('user')" @keydown.escape="closeDropdown">
+              <button class="user-btn" @keydown.down.prevent="openDropdown('user')">
                 <span class="user-avatar">{{ auth.user.username[0].toUpperCase() }}</span>
                 <span>{{ auth.user.username }}</span>
                 <svg class="chevron" viewBox="0 0 24 24" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>

@@ -30,6 +30,12 @@
               :class="{ expanded: expandedId === tech.id }"
               :style="{ '--c': craft.color }"
               @click="toggleExpand(tech.id)"
+              role="button"
+              :aria-expanded="expandedId === tech.id"
+              :aria-label="`${tech.name} technique${expandedId === tech.id ? ', expanded' : ''}`"
+              tabindex="0"
+              @keydown.enter="toggleExpand(tech.id)"
+              @keydown.space.prevent="toggleExpand(tech.id)"
             >
               <!-- Card header — always visible -->
               <div class="tech-header">

@@ -23,7 +23,7 @@
 
   --text-dark:   #2a2535;
   --text-mid:    #5D576B;
-  --text-light:  #8e8a99;
+  --text-light:  #6b6470;
 
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body:    'DM Sans', system-ui, sans-serif;
@@ -199,6 +199,25 @@ h1, h2, h3, h4 {
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--mint); }
 ::-webkit-scrollbar-thumb { background: var(--sage); border-radius: 99px; }
+
+/* Skip-to-content link */
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--plum);
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  z-index: 10000;
+  border-radius: 0 0 4px 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
 
 /* Toast notification */
 .toast {

@@ -10,7 +10,9 @@
           📖 Full Guide
         </a>
       </div>
-      <button class="wishlist-btn" :class="{ active: isWished }" @click.stop="toggleWish" :title="isWished ? 'Remove from wishlist' : 'Add to wishlist'">
+      <button class="wishlist-btn" :class="{ active: isWished }" @click.stop="toggleWish" 
+              :title="isWished ? 'Remove from wishlist' : 'Add to wishlist'"
+              :aria-label="isWished ? 'Remove from wishlist' : 'Add to wishlist'">
         {{ isWished ? '❤️' : '🤍' }}
       </button>
     </div>

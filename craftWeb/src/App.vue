@@ -1,8 +1,9 @@
 <template>
   <div id="app-wrapper">
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
     <CustomCursor />
     <AppNav />
-    <main>
+    <main id="main-content">
       <RouterView v-slot="{ Component, route }">
         <Transition name="page" mode="out-in">
           <component :is="Component" :key="route.path" />
