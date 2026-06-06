@@ -79,7 +79,8 @@
         </li>
       </ul>
 
-      <button class="hamburger" @click="mobileOpen = !mobileOpen" :class="{ open: mobileOpen }">
+      <button class="hamburger" @click="mobileOpen = !mobileOpen" :class="{ open: mobileOpen }"
+      :aria-expanded="mobileOpen" aria-label="Toggle navigation menu" aria-controls="mobile-menu">
         <span /><span /><span />
       </button>
     </div>
