@@ -40,8 +40,7 @@
                 <h3 class="proj-title">{{ project.name }}</h3>
                 <p class="proj-desc">{{ project.description }}</p>
                 <div class="proj-actions">
-                  <a :href="project.videoUrl" target="_blank" rel="noopener"
-                     class="btn btn-watch" :style="{ background: craft.color }">
+                  <a v-if="project.videoUrl" :href="project.videoUrl" target="_blank" rel="noopener" class="btn btn-watch" :style="{ background: craft.color }">
                     ▶ Watch Video
                   </a>
                 </div>
