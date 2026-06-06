@@ -60,7 +60,9 @@
 
         <!-- Demo hint -->
         <div class="demo-hint">
-          <p>🎪 <strong>Demo:</strong> Use any email + password to log in (simulated).</p>
+          <p>💡 <strong>New here? </strong>
+            <RouterLink to="/register">Create a free account</RouterLink>
+            to save patterns to your wishlist.</p>
         </div>
       </div>
     </div>
