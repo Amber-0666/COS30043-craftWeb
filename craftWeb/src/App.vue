@@ -11,7 +11,8 @@
     </main>
     <AppFooter />
     <Teleport to="body">
-      <div v-if="toast.show" :class="['toast', `toast-${toast.type}`]">
+      <div v-if="toast.show" :class="['toast', `toast-${toast.type}`]"
+      role="status" aria-live="polite" aria-atomic="true">
         {{ toast.message }}
       </div>
     </Teleport>
